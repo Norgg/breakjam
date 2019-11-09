@@ -6,13 +6,6 @@ using TMPro;
 
 public class TrackList : MonoBehaviour
 {
-    string[] trackNames =
-    {
-        "Track 1",
-        "Track 2",
-        "Track 3",
-    };
-
     public ScrollRect scrollRect;
     public Button buttonTemplate;
 
@@ -22,7 +15,14 @@ public class TrackList : MonoBehaviour
         int x = 0;
         int y = 0;
         int height = 44;
-        
+        var path = "Resources/Tracks/Beatmaps";
+        var textFiles = Resources.LoadAll(path, typeof(TextAsset));
+        var trackNames = new List<string>();
+
+        foreach (var textFile in textFiles)
+        {
+            trackNames.Add(textFile.name);
+        }
 
         foreach (var title in trackNames)
         {
