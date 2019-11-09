@@ -7,11 +7,18 @@ public class Note : MonoBehaviour {
     NoteSpawner spawner;
     TextMeshPro text;
     float speed = 0.03f;
+
+    public NoteSpawner.Direction dir;
     public int num;
+
+    GameObject core;
+    GameObject detection;
 
     void Start() {
         spawner = GameObject.FindObjectOfType<NoteSpawner>();
         text = GetComponentInChildren<TextMeshPro>();
+        detection = GameObject.Find("DetectionZone");
+        core = GameObject.Find("Core");
     }
 
     void Update() {
