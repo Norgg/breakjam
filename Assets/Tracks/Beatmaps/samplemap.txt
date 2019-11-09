@@ -7,11 +7,10 @@ beat_codes:
     - code:   d3
 	- code:   0
     - code:   l4
+
     - code:   l3
     - code:   l2
     - code:   l1
     - code:   l2
     - code:   l3
     - code:   l4
-
-
