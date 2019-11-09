@@ -15,8 +15,7 @@ public class BeatmapParser : MonoBehaviour {
     int beat = 0;
 
     float noteOffsetDistance = 10;
-    public Note note;
-    
+    public Note notePrefab;
 
 
     // Start is called before the first frame update
@@ -30,10 +29,8 @@ public class BeatmapParser : MonoBehaviour {
 
         timeBetweenBeats = 1.0 / (map.bpm / 60.0);
 
-
         AudioSource player = GetComponent<AudioSource>();
         player.PlayDelayed(map.intro);
-
     }
 
     // Update is called once per frame
@@ -42,7 +39,6 @@ public class BeatmapParser : MonoBehaviour {
             timer -= timeBetweenBeats;
             SpawnBeat();
             beat++;
-
         }
 
         if (beat >= map.beatCodes.Count) { this.enabled=false; }
@@ -51,16 +47,13 @@ public class BeatmapParser : MonoBehaviour {
 
 
     void SpawnBeat() {
-
-
         string code = map.beatCodes[beat].code;
         if (code == "0") { return; }
 
-        Note newNote = GameObject.Instantiate(note);
-       
+        Note newNote = GameObject.Instantiate(notePrefab);
 
         if (code[0] == 'u') {
-            newNote.dir =NoteSpawner.Direction.Up;
+            newNote.dir = NoteSpawner.Direction.Up;
         }
         if (code[0] == 'd') {
             newNote.dir = NoteSpawner.Direction.Down;
@@ -69,13 +62,12 @@ public class BeatmapParser : MonoBehaviour {
         if (code[0] == 'l') {
             newNote.dir = NoteSpawner.Direction.Left;
         }
+
         if (code[0] == 'r') {
             newNote.dir = NoteSpawner.Direction.Right;
         }
 
-
         var offset = new Vector3();
-
         switch (newNote.dir) {
             case NoteSpawner.Direction.Up:
                 offset = Vector3.up * noteOffsetDistance;
@@ -91,10 +83,8 @@ public class BeatmapParser : MonoBehaviour {
                 break;
         }
 
-
-        note.transform.position = transform.position + offset;
+        newNote.transform.position = transform.position + offset;
 
         newNote.num = (int)char.GetNumericValue(code[1]);
-
     }
 }
