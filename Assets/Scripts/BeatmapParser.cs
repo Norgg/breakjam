@@ -42,7 +42,7 @@ public class BeatmapParser : MonoBehaviour {
         }
 
         if (song == null) {
-            Debug.LogError("Could nto find song "+map.song);
+            Debug.LogError("Could not find song " + map.song);
         }
 
         AudioSource player = GetComponent<AudioSource>();
