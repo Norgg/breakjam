@@ -1,0 +1,21 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class Beatmap 
+{
+    
+    public int bpm { get; set; }
+
+    [YamlDotNet.Serialization.YamlMember(Alias = "beat_codes", ApplyNamingConventions = false)]
+    public List<Beat> beatCodes { get; set; }    
+
+
+}
+
+public class Beat {
+   
+    public string code { get; set; }
+
+}
+

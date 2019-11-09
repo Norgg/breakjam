@@ -1,0 +1,9 @@
+bpm: 60
+beat_codes:
+    - code:   a2
+
+    - code:   a3
+
+    - code:   a4
+
+
