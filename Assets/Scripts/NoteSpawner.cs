@@ -42,7 +42,6 @@ public class NoteSpawner : MonoBehaviour {
             note.num = Random.Range(1, 4);
             note.dir = dir;
 
-
             nextBeatTimer = timeUntilNextBeat;
         }
     }

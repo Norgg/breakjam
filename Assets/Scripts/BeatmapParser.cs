@@ -10,7 +10,7 @@ public class BeatmapParser : MonoBehaviour {
     public TextAsset file;
     Beatmap map;
     
-    double timeBetweenBeats;
+    float timeBetweenBeats;
     int beat = 0;
 
     float noteOffsetDistance = 10;
@@ -26,7 +26,7 @@ public class BeatmapParser : MonoBehaviour {
 
         map = deserializer.Deserialize<Beatmap>(input);
 
-        timeBetweenBeats = 1.0 / (map.bpm / 60.0);
+        timeBetweenBeats = 1.0f / (map.bpm / 60.0f);
       
 
         AudioClip song = null;
@@ -46,59 +46,42 @@ public class BeatmapParser : MonoBehaviour {
 
         AudioSource player = GetComponent<AudioSource>();
         player.clip = song;
-        InvokeRepeating("SpawnBeat",0f,(float)timeBetweenBeats);
+
+        for (var i = 0; i < map.beatCodes.Count; i++) {
+            var beat = map.beatCodes[i];
+            SpawnBeat(beat, i, timeBetweenBeats, map.intro);
+        }
+
+        // InvokeRepeating("SpawnBeat",0f,(float)timeBetweenBeats);
     }
 
-  
-
-
-    void SpawnBeat() {
-        if (beat >= map.beatCodes.Count) { return; }
-        string code = map.beatCodes[beat].code;
-        if (code == "0") { beat++; return; }
+    void SpawnBeat(Beat beat, int index, float timeBetweenBeats, float introTime) {
+        string code = beat.code;
+        if (code == "0") { return; }
         
         Note newNote = GameObject.Instantiate(notePrefab);
         newNote.num = (int)char.GetNumericValue(code[1]);
         newNote.speed = map.speed;
 
-        if (code[0] == 'u') {
-            newNote.dir = NoteSpawner.Direction.Up;
-        }
-        if (code[0] == 'd') {
-            newNote.dir = NoteSpawner.Direction.Down;
-        }
+        // if (code[0] == 'u') {
+        //     newNote.dir = NoteSpawner.Direction.Up;
+        // }
+        // if (code[0] == 'd') {
+        //     newNote.dir = NoteSpawner.Direction.Down;
+        // }
 
-        if (code[0] == 'l') {
-            newNote.dir = NoteSpawner.Direction.Left;
-        }
+        // if (code[0] == 'l') {
+        //     newNote.dir = NoteSpawner.Direction.Left;
+        // }
 
-        if (code[0] == 'r') {
-            newNote.dir = NoteSpawner.Direction.Right;
-        }
+        // if (code[0] == 'r') {
+        //     newNote.dir = NoteSpawner.Direction.Right;
+        // }
 
-        // Just make them all come from up for now
-        newNote.dir = NoteSpawner.Direction.Up;
-
-        var offset = new Vector3();
-        switch (newNote.dir) {
-            case NoteSpawner.Direction.Up:
-                offset = Vector3.up * noteOffsetDistance;
-                break;
-            case NoteSpawner.Direction.Down:
-                offset = Vector3.down * noteOffsetDistance;
-                break;
-            case NoteSpawner.Direction.Left:
-                offset = Vector3.left * noteOffsetDistance;
-                break;
-            case NoteSpawner.Direction.Right:
-                offset = Vector3.right * noteOffsetDistance;
-                break;
-        }
-
+        var offset = Vector3.zero;
         offset += Vector3.right * (-10f + 4f * newNote.num);
-        newNote.transform.position = transform.position + offset;
-        beat++;
-       
+        var vertOffset = Vector3.up * (timeBetweenBeats * index * newNote.speed + 3.0f * newNote.speed);
+        newNote.transform.position = transform.position + offset + vertOffset;
     }
 
 

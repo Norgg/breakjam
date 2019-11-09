@@ -27,19 +27,21 @@ public class Note : MonoBehaviour {
     }
     
     public void Break() {
+        text.enabled = false;
+        animator.speed = 3.0f;
         animator.Play("destroy");
-        GameObject.Destroy(gameObject, 0.2f);
+        GameObject.Destroy(gameObject, 0.3f);
         broken = true;
     }
 
-    void Update() {
+    void FixedUpdate() {
         var directionToSpawner =  spawner.transform.position - transform.position;
         directionToSpawner.Normalize();
         directionToSpawner *= speed;
         text.SetText("" + num);
 
         if (!broken) {
-            transform.position += Vector3.down * speed;
+            transform.position += Vector3.down * speed * Time.deltaTime;
         }
         //transform.position += directionToSpawner;
     }
