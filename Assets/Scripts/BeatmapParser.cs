@@ -15,9 +15,8 @@ public class BeatmapParser : MonoBehaviour {
     int beat = 0;
 
     float noteOffsetDistance = 10;
-    public Note note;
+    public Note notePrefab;
     
-
 
     // Start is called before the first frame update
     void Start() {
@@ -29,11 +28,25 @@ public class BeatmapParser : MonoBehaviour {
         map = deserializer.Deserialize<Beatmap>(input);
 
         timeBetweenBeats = 1.0 / (map.bpm / 60.0);
+      
 
+        AudioClip song = null;
+
+        SongNames dict = GetComponent<SongNames>();
+
+        for(int i =0;i<dict.songNames.Length;i++) {
+            string s = dict.songNames[i];
+            if (s == map.song) {
+                song = dict.songFiles[i];
+            }
+        }
+
+        if (song == null) {
+            Debug.LogError("Could not find song " + map.song);
+        }
 
         AudioSource player = GetComponent<AudioSource>();
-        player.PlayDelayed(map.intro);
-
+        player.clip = song;
     }
 
     // Update is called once per frame
@@ -42,7 +55,6 @@ public class BeatmapParser : MonoBehaviour {
             timer -= timeBetweenBeats;
             SpawnBeat();
             beat++;
-
         }
 
         if (beat >= map.beatCodes.Count) { this.enabled=false; }
@@ -51,16 +63,15 @@ public class BeatmapParser : MonoBehaviour {
 
 
     void SpawnBeat() {
-
-
         string code = map.beatCodes[beat].code;
         if (code == "0") { return; }
-
-        Note newNote = GameObject.Instantiate(note);
-       
+        
+        Note newNote = GameObject.Instantiate(notePrefab);
+        newNote.num = (int)char.GetNumericValue(code[1]);
+        newNote.speed = map.speed;
 
         if (code[0] == 'u') {
-            newNote.dir =NoteSpawner.Direction.Up;
+            newNote.dir = NoteSpawner.Direction.Up;
         }
         if (code[0] == 'd') {
             newNote.dir = NoteSpawner.Direction.Down;
@@ -69,13 +80,15 @@ public class BeatmapParser : MonoBehaviour {
         if (code[0] == 'l') {
             newNote.dir = NoteSpawner.Direction.Left;
         }
+
         if (code[0] == 'r') {
             newNote.dir = NoteSpawner.Direction.Right;
         }
 
+        // Just make them all come from up for now
+        newNote.dir = NoteSpawner.Direction.Up;
 
         var offset = new Vector3();
-
         switch (newNote.dir) {
             case NoteSpawner.Direction.Up:
                 offset = Vector3.up * noteOffsetDistance;
@@ -91,10 +104,14 @@ public class BeatmapParser : MonoBehaviour {
                 break;
         }
 
+        offset += Vector3.right * (-10f + 4f * newNote.num);
+        newNote.transform.position = transform.position + offset;
 
-        note.transform.position = transform.position + offset;
+    }
 
-        newNote.num = (int)char.GetNumericValue(code[1]);
 
+    public void Play() {
+        AudioSource player = GetComponent<AudioSource>();
+        player.PlayDelayed(map.intro);
     }
 }

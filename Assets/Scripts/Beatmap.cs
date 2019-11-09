@@ -9,6 +9,10 @@ public class Beatmap
 
     public float intro { get; set; }
 
+    public string song { get; set; }
+
+    public float speed { get; set; }
+
     [YamlDotNet.Serialization.YamlMember(Alias = "beat_codes", ApplyNamingConventions = false)]
     public List<Beat> beatCodes { get; set; }    
 

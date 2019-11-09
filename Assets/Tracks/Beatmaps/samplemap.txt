@@ -1,9 +1,17 @@
 bpm: 60
-intro: 6
+intro: 1
+speed: 0.01
+song: anarchyroad
 beat_codes:
     - code:   u2
     - code:   d3
 	- code:   0
+    - code:   l4
+    - code:   l3
+    - code:   l2
+    - code:   l1
+    - code:   l2
+    - code:   l3
     - code:   l4
 
 

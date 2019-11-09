@@ -6,7 +6,7 @@ using TMPro;
 public class Note : MonoBehaviour {
     BeatmapParser spawner;
     TextMeshPro text;
-    float speed = 0.03f;
+    public float speed = 0.03f;
 
     public NoteSpawner.Direction dir;
     public int num;
@@ -27,7 +27,8 @@ public class Note : MonoBehaviour {
         directionToSpawner *= speed;
         text.SetText("" + num);
 
-        transform.position += directionToSpawner;
+        transform.position += Vector3.down * speed;
+        //transform.position += directionToSpawner;
 
         if (Vector3.Distance(transform.position, spawner.transform.position) < 0.1f) {
             Destroy(gameObject);
