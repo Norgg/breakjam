@@ -1,4 +1,5 @@
 bpm: 60
+intro: 6
 beat_codes:
     - code:   u2
     - code:   d3
