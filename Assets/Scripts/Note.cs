@@ -6,7 +6,7 @@ using TMPro;
 public class Note : MonoBehaviour {
     BeatmapParser spawner;
     TextMeshPro text;
-    float speed = 0.03f;
+    public float speed = 0.03f;
 
     public NoteSpawner.Direction dir;
     public int num;

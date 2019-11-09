@@ -31,7 +31,26 @@ public class BeatmapParser : MonoBehaviour {
         timeBetweenBeats = 1.0 / (map.bpm / 60.0);
 
 
+      
+
+        AudioClip song = null;
+
+        SongNames dict = GetComponent<SongNames>();
+
+        for(int i =0;i<dict.songNames.Length;i++) {
+            string s = dict.songNames[i];
+            if (s == map.song) {
+                song = dict.songFiles[i];
+            }
+        }
+
+        if (song == null) {
+            Debug.LogError("Could nto find song "+map.song);
+        }
+
         AudioSource player = GetComponent<AudioSource>();
+        player.clip = song;
+
         player.PlayDelayed(map.intro);
 
     }
@@ -57,7 +76,7 @@ public class BeatmapParser : MonoBehaviour {
         if (code == "0") { return; }
 
         Note newNote = GameObject.Instantiate(note);
-       
+        newNote.speed = map.speed;
 
         if (code[0] == 'u') {
             newNote.dir =NoteSpawner.Direction.Up;
