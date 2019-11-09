@@ -268,6 +268,7 @@ MonoBehaviour:
   speed: 0.03
   dir: 0
   num: 0
+  broken: 0
 --- !u!54 &-6654358968027146109
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -354,7 +355,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 2382542705151310463, guid: 89751459c269d42489c9fbef28c66707,
+  m_Sprite: {fileID: 1974838898007284280, guid: 63a45ce38cf954466ab41aced11df2f6,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
