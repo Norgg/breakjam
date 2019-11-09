@@ -27,8 +27,9 @@ public class Note : MonoBehaviour {
     }
     
     public void Break() {
+        animator.speed = 3.0f;
         animator.Play("destroy");
-        GameObject.Destroy(gameObject, 0.2f);
+        GameObject.Destroy(gameObject, 0.3f);
         broken = true;
     }
 
