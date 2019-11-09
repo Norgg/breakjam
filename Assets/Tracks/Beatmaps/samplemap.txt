@@ -1,9 +1,8 @@
 bpm: 60
 beat_codes:
     - code:   u2
-
     - code:   d3
-
+	- code:   0
     - code:   l4
 
 

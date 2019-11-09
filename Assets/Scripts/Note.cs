@@ -4,7 +4,7 @@ using UnityEngine;
 using TMPro;
 
 public class Note : MonoBehaviour {
-    NoteSpawner spawner;
+    BeatmapParser spawner;
     TextMeshPro text;
     float speed = 0.03f;
 
@@ -15,7 +15,7 @@ public class Note : MonoBehaviour {
     GameObject detection;
 
     void Start() {
-        spawner = GameObject.FindObjectOfType<NoteSpawner>();
+        spawner = GameObject.FindObjectOfType<BeatmapParser>();
         text = GetComponentInChildren<TextMeshPro>();
         detection = GameObject.Find("DetectionZone");
         core = GameObject.Find("Core");
