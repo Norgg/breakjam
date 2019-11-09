@@ -5,7 +5,7 @@ using UnityEngine;
 public class NoteSpawner : MonoBehaviour {
     public GameObject NotePrefab;
 
-    enum Direction {
+    public enum Direction {
         Up,
         Down,
         Left,
@@ -38,8 +38,10 @@ public class NoteSpawner : MonoBehaviour {
                     offset = Vector3.right * noteOffsetDistance;
                     break;
             }
-            var note = Instantiate(NotePrefab, transform.position + offset, Quaternion.identity);
-            note.GetComponent<Note>().num = Random.Range(1, 4);
+            var note = Instantiate(NotePrefab, transform.position + offset, Quaternion.identity).GetComponent<Note>();
+            note.num = Random.Range(1, 4);
+            note.dir = dir;
+
             nextBeatTimer = timeUntilNextBeat;
         }
     }
