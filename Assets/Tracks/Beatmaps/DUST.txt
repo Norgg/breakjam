@@ -6,6 +6,8 @@ song: dust
 beat_codes:
 						#Bar 1
 
+	- code:   u4
+	- code:   0
 	- code:   u1
     - code:   0
 
