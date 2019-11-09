@@ -10,6 +10,7 @@ public class Note : MonoBehaviour {
 
     public NoteSpawner.Direction dir;
     public int num;
+    public int beatNum;
 
     GameObject core;
     GameObject detection;
