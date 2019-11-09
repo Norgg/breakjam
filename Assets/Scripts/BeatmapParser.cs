@@ -9,8 +9,7 @@ public class BeatmapParser : MonoBehaviour {
 
     public TextAsset file;
     Beatmap map;
-
-    double timer = 0;
+    
     double timeBetweenBeats;
     int beat = 0;
 
@@ -47,24 +46,16 @@ public class BeatmapParser : MonoBehaviour {
 
         AudioSource player = GetComponent<AudioSource>();
         player.clip = song;
+        InvokeRepeating("SpawnBeat",0f,(float)timeBetweenBeats);
     }
 
-    // Update is called once per frame
-    void Update() {
-        if (timer >= timeBetweenBeats) {
-            timer -= timeBetweenBeats;
-            SpawnBeat();
-            beat++;
-        }
-
-        if (beat >= map.beatCodes.Count) { this.enabled=false; }
-        timer += Time.deltaTime;
-    }
+  
 
 
     void SpawnBeat() {
+        if (beat >= map.beatCodes.Count) { return; }
         string code = map.beatCodes[beat].code;
-        if (code == "0") { return; }
+        if (code == "0") { beat++; return; }
         
         Note newNote = GameObject.Instantiate(notePrefab);
         newNote.num = (int)char.GetNumericValue(code[1]);
@@ -106,7 +97,8 @@ public class BeatmapParser : MonoBehaviour {
 
         offset += Vector3.right * (-10f + 4f * newNote.num);
         newNote.transform.position = transform.position + offset;
-
+        beat++;
+       
     }
 
 

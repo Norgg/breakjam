@@ -7,5 +7,6 @@ beat_codes:
     - code:   d3
 	- code:   0
     - code:   l4
+	- code:   u4
 
 
