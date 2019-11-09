@@ -17,8 +17,8 @@ public class BeatmapParser : MonoBehaviour {
     public Note notePrefab;
     
 
-    // Start is called before the first frame update
     void Start() {
+        // Start is called before the first frame update
         string input = file.text;
         input = input.Replace("\t","    ");
 

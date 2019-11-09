@@ -17,7 +17,7 @@ public class Detection : MonoBehaviour {
         }
 
         if (!badFrets && Input.GetButton("Fret" + note.num) && Input.GetButton(dirButton)) {
-            Destroy(note.gameObject);
+            note.Hit();
         }
     }
 

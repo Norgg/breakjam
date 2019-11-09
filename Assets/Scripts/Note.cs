@@ -18,20 +18,34 @@ public class Note : MonoBehaviour {
 
     public bool broken = false;
 
+    Score score;
+
     void Start() {
         spawner = GameObject.FindObjectOfType<BeatmapParser>();
         text = GetComponentInChildren<TextMeshPro>();
         detection = GameObject.Find("DetectionZone");
         core = GameObject.Find("Core");
         animator = GetComponentInChildren<Animator>();
+        score = FindObjectOfType<Score>();
     }
     
     public void Break() {
+        // Oh no
+        if (broken) return;
+        broken = true;
         text.enabled = false;
         animator.speed = 3.0f;
         animator.Play("destroy");
         GameObject.Destroy(gameObject, 0.3f);
+        score.Miss();
+    }
+
+    public void Hit() {
+        // A successful note hit
+        if (broken) return;
         broken = true;
+        score.Hit();
+        GameObject.Destroy(gameObject);
     }
 
     void FixedUpdate() {
