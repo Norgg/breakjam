@@ -1,5 +1,5 @@
 bpm: 428
-intro: 8
+intro: 0
 speed: 0.1
 song: anarchyroad
 
@@ -88,5 +88,87 @@ beat_codes:
 	- code:   u4
     - code:   0
 
+						#Bar 5
+    - code:   l3
+    - code:   r2
+	- code:   l1
+    - code:   0
 
+	- code:   u4
+    - code:   0
+	- code:   0
+    - code:   d1
+
+	- code:   0
+    - code:   0
+	- code:   d1
+    - code:   0
+
+	- code:   0
+    - code:   0
+	- code:   u4
+    - code:   0
+
+						#Bar 6
+    - code:   u3
+    - code:   r2
+	- code:   d1
+    - code:   0
+
+	- code:   u4
+    - code:   0
+	- code:   0
+    - code:   d1
+
+	- code:   0
+    - code:   0
+	- code:   d1
+    - code:   0
+
+	- code:   0
+    - code:   0
+	- code:   u4
+    - code:   0
+
+							#Bar 7
+    - code:   u3
+    - code:   r2
+	- code:   d1
+    - code:   0
+
+	- code:   u4
+    - code:   0
+	- code:   0
+    - code:   d1
+
+	- code:   0
+    - code:   0
+	- code:   d1
+    - code:   0
+
+	- code:   0
+    - code:   0
+	- code:   u4
+    - code:   0
+
+							#Bar 8
+    - code:   u3
+    - code:   r2
+	- code:   d1
+    - code:   0
+
+	- code:   u4
+    - code:   0
+	- code:   0
+    - code:   d1
+
+	- code:   0
+    - code:   0
+	- code:   d1
+    - code:   0
+
+	- code:   0
+    - code:   0
+	- code:   u4
+    - code:   0
 
