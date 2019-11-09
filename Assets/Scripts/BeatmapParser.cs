@@ -16,7 +16,7 @@ public class BeatmapParser : MonoBehaviour {
 
     float noteOffsetDistance = 10;
     public Note notePrefab;
-
+    
 
     // Start is called before the first frame update
     void Start() {
@@ -47,8 +47,6 @@ public class BeatmapParser : MonoBehaviour {
 
         AudioSource player = GetComponent<AudioSource>();
         player.clip = song;
-
-        player.PlayDelayed(map.intro);
     }
 
     // Update is called once per frame
@@ -105,5 +103,11 @@ public class BeatmapParser : MonoBehaviour {
         newNote.transform.position = transform.position + offset;
 
         newNote.num = (int)char.GetNumericValue(code[1]);
+    }
+
+
+    public void Play() {
+        AudioSource player = GetComponent<AudioSource>();
+        player.PlayDelayed(map.intro);
     }
 }
