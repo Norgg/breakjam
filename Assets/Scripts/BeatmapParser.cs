@@ -67,6 +67,7 @@ public class BeatmapParser : MonoBehaviour {
         if (code == "0") { return; }
         
         Note newNote = GameObject.Instantiate(notePrefab);
+        newNote.num = (int)char.GetNumericValue(code[1]);
         newNote.speed = map.speed;
 
         if (code[0] == 'u') {
@@ -84,6 +85,9 @@ public class BeatmapParser : MonoBehaviour {
             newNote.dir = NoteSpawner.Direction.Right;
         }
 
+        // Just make them all come from up for now
+        newNote.dir = NoteSpawner.Direction.Up;
+
         var offset = new Vector3();
         switch (newNote.dir) {
             case NoteSpawner.Direction.Up:
@@ -100,9 +104,9 @@ public class BeatmapParser : MonoBehaviour {
                 break;
         }
 
+        offset += Vector3.right * (-10f + 4f * newNote.num);
         newNote.transform.position = transform.position + offset;
 
-        newNote.num = (int)char.GetNumericValue(code[1]);
     }
 
 
