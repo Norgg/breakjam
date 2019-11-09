@@ -7,9 +7,16 @@ public class Detection : MonoBehaviour {
     }
 
     void checkNote(Note note) {
-        Debug.Log("CHECKING " + note);
         var dirButton = note.dir.ToString();
-        if (Input.GetButton("Fret" + note.num) && Input.GetButton(dirButton)) {
+        var badFrets = false;
+        for (var i = 1; i < 5; i++) {
+            if (i != note.num && Input.GetButton("Fret" + i)) {
+                badFrets = true;
+                break;
+            }
+        }
+
+        if (!badFrets && Input.GetButton("Fret" + note.num) && Input.GetButton(dirButton)) {
             Destroy(note.gameObject);
         }
     }
