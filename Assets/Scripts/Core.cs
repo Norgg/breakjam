@@ -22,7 +22,8 @@ public class Core : MonoBehaviour {
     }
 
     void Damage(Note note) {
-        Destroy(note.gameObject);
+        // Destroy(note.gameObject);
+        note.Break();
         damageTimer = damageTime;
     }
 
