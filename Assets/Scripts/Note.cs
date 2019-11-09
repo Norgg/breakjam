@@ -27,7 +27,8 @@ public class Note : MonoBehaviour {
         directionToSpawner *= speed;
         text.SetText("" + num);
 
-        transform.position += directionToSpawner;
+        transform.position += Vector3.down * speed;
+        //transform.position += directionToSpawner;
 
         if (Vector3.Distance(transform.position, spawner.transform.position) < 0.1f) {
             Destroy(gameObject);
