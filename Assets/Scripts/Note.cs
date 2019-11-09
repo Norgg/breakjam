@@ -32,14 +32,14 @@ public class Note : MonoBehaviour {
         broken = true;
     }
 
-    void Update() {
+    void FixedUpdate() {
         var directionToSpawner =  spawner.transform.position - transform.position;
         directionToSpawner.Normalize();
         directionToSpawner *= speed;
         text.SetText("" + num);
 
         if (!broken) {
-            transform.position += Vector3.down * speed;
+            transform.position += Vector3.down * speed * Time.deltaTime;
         }
         //transform.position += directionToSpawner;
     }

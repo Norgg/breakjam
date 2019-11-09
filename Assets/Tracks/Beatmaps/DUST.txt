@@ -1,6 +1,6 @@
 bpm: 400
 intro: 0
-speed: 0.1
+speed: 3
 song: dust
 
 beat_codes:
