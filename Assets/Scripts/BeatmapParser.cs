@@ -59,42 +59,36 @@ public class BeatmapParser : MonoBehaviour {
         AudioSource player = GetComponent<AudioSource>();
         player.clip = song;
 
+        Note lastNote = null;
         for (var i = 0; i < map.beatCodes.Count; i++) {
             var beat = map.beatCodes[i];
-            SpawnBeat(beat, i, timeBetweenBeats, map.intro);
+            var thisNote = SpawnBeat(beat, i, timeBetweenBeats, map.intro);
+            if (thisNote != null) {
+                if (lastNote != null) {
+                    lastNote.last = false;
+                }
+                lastNote = thisNote;
+            }
         }
 
         // InvokeRepeating("SpawnBeat",0f,(float)timeBetweenBeats);
     }
 
-    void SpawnBeat(Beat beat, int beatNum, float timeBetweenBeats, float introTime) {
+    Note SpawnBeat(Beat beat, int beatNum, float timeBetweenBeats, float introTime) {
         string code = beat.code;
-        if (code == "0") { return; }
+        if (code == "0") { return null; }
 
         Note newNote = GameObject.Instantiate(notePrefab);
         newNote.num = (int)char.GetNumericValue(code[1]);
         newNote.speed = map.speed;
         newNote.beatNum = beatNum;
-
-        // if (code[0] == 'u') {
-        //     newNote.dir = NoteSpawner.Direction.Up;
-        // }
-        // if (code[0] == 'd') {
-        //     newNote.dir = NoteSpawner.Direction.Down;
-        // }
-
-        // if (code[0] == 'l') {
-        //     newNote.dir = NoteSpawner.Direction.Left;
-        // }
-
-        // if (code[0] == 'r') {
-        //     newNote.dir = NoteSpawner.Direction.Right;
-        // }
+        newNote.last = true;
 
         var offset = Vector3.zero;
         offset += Vector3.right * (-10f + 4f * newNote.num);
         var vertOffset = Vector3.up * (timeBetweenBeats * beatNum * newNote.speed + 3.0f * newNote.speed);
         newNote.transform.position = transform.position + offset + vertOffset;
+        return newNote;
     }
 
 

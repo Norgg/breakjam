@@ -1,0 +1,1813 @@
+bpm: 348
+intro: 0.2
+speed: 3
+song: Desert Pacific Octopi (87 bpm)
+beat_codes:
+#Bar 1
+    - code:   u1
+    - code:   0
+	- code:   0
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   0
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   0
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   0
+    - code:   0
+
+#Bar 2
+    - code:   0
+    - code:   0
+	- code:   0
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   0
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   0
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   0
+    - code:   0
+
+#Bar 3
+    - code:   0
+    - code:   0
+	- code:   0
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   0
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   0
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   0
+    - code:   0
+
+#Bar 4
+    - code:   0
+    - code:   0
+	- code:   0
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   0
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   0
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   0
+    - code:   0
+
+#Bar 5
+    - code:   u4
+    - code:   0
+	- code:   0
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   0
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   0
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   0
+    - code:   0
+
+#Bar 6
+    - code:   u2
+    - code:   0
+	- code:   0
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   0
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   0
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   0
+    - code:   0
+
+#Bar 7
+    - code:   u3
+    - code:   0
+	- code:   0
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   0
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   0
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   u2
+    - code:   0
+
+#Bar 8
+    - code:   0
+    - code:   0
+	- code:   0
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   u1
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   0
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   0
+    - code:   0
+
+#Bar 9
+    - code:   u2
+    - code:   0
+	- code:   u4
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   u2
+    - code:   0
+
+    - code:   u4
+    - code:   0
+	- code:   0
+    - code:   0
+
+    - code:   u2
+    - code:   0
+	- code:   u2
+    - code:   0
+
+#Bar 10
+    - code:   0
+    - code:   0
+	- code:   u3
+    - code:   0
+
+    - code:   u3
+    - code:   0
+	- code:   0
+    - code:   0
+
+    - code:   u3
+    - code:   0
+	- code:   0
+    - code:   0
+
+    - code:   u3
+    - code:   u4
+	- code:   0
+    - code:   0
+
+#Bar 11
+    - code:   u2
+    - code:   0
+	- code:   u4
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   u2
+    - code:   0
+
+    - code:   u4
+    - code:   0
+	- code:   0
+    - code:   0
+
+    - code:   u2
+    - code:   0
+	- code:   u2
+    - code:   0
+
+#Bar 12
+    - code:   0
+    - code:   0
+	- code:   u3
+    - code:   0
+
+    - code:   u3
+    - code:   0
+	- code:   u2
+    - code:   0
+
+    - code:   u3
+    - code:   0
+	- code:   0
+    - code:   0
+
+    - code:   u3
+    - code:   u4
+	- code:   0
+    - code:   0
+
+#Bar 13
+    - code:   u1
+    - code:   0
+	- code:   u3
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   u1
+    - code:   0
+
+    - code:   u3
+    - code:   0
+	- code:   0
+    - code:   0
+
+    - code:   u1
+    - code:   0
+	- code:   u1
+    - code:   0
+
+#Bar 14
+    - code:   0
+    - code:   0
+	- code:   u3
+    - code:   0
+
+    - code:   u3
+    - code:   0
+	- code:   0
+    - code:   0
+
+    - code:   u3
+    - code:   0
+	- code:   0
+    - code:   0
+
+    - code:   u3
+    - code:   u4
+	- code:   0
+    - code:   0
+
+#Bar 15
+    - code:   u2
+    - code:   0
+	- code:   u4
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   u2
+    - code:   0
+
+    - code:   u4
+    - code:   0
+	- code:   0
+    - code:   0
+
+    - code:   u2
+    - code:   0
+	- code:   u2
+    - code:   0
+
+#Bar 16
+    - code:   0
+    - code:   0
+	- code:   0
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   u4
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   0
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   0
+    - code:   0
+
+#Bar 17
+    - code:   u1
+    - code:   0
+	- code:   0
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   u2
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   0
+    - code:   0
+
+    - code:   u3
+    - code:   0
+	- code:   0
+    - code:   0
+
+#Bar 18
+    - code:   0
+    - code:   0
+	- code:   0
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   0
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   0
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   0
+    - code:   0
+
+#Bar 19
+    - code:   u1
+    - code:   0
+	- code:   0
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   u2
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   0
+    - code:   0
+
+    - code:   u3
+    - code:   0
+	- code:   0
+    - code:   0
+
+#Bar 20
+    - code:   0
+    - code:   0
+	- code:   0
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   u4
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   0
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   0
+    - code:   0
+
+#Bar 21
+    - code:   u1
+    - code:   0
+	- code:   0
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   u2
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   0
+    - code:   0
+
+    - code:   u3
+    - code:   0
+	- code:   0
+    - code:   0
+
+#Bar 22
+    - code:   0
+    - code:   0
+	- code:   0
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   0
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   0
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   u2
+    - code:   0
+
+#Bar 23
+    - code:   u1
+    - code:   0
+	- code:   0
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   u2
+    - code:   0
+
+	- code:   0
+    - code:   0
+	- code:   0
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   u1
+    - code:   0
+
+#Bar 24
+    - code:   0
+    - code:   0
+	- code:   0
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   0
+    - code:   0
+
+	- code:   u2
+    - code:   0
+	- code:   0
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   0
+    - code:   0
+
+#Bar 25
+    - code:   u1
+    - code:   0
+	- code:   0
+    - code:   0
+
+    - code:   u3
+    - code:   0
+	- code:   u1
+    - code:   0
+
+	- code:   u4
+    - code:   0
+	- code:   u3
+    - code:   0
+
+    - code:   u1
+    - code:   0
+	- code:   u3
+    - code:   0
+
+#Bar 26
+    - code:   0
+    - code:   0
+	- code:   u1
+    - code:   0
+
+    - code:   u3
+    - code:   0
+	- code:   u4
+    - code:   0
+
+	- code:   0
+    - code:   0
+	- code:   u3
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   0
+    - code:   0
+
+#Bar 27
+    - code:   u1
+    - code:   0
+	- code:   0
+    - code:   0
+
+    - code:   u3
+    - code:   0
+	- code:   u1
+    - code:   0
+
+	- code:   u4
+    - code:   0
+	- code:   u3
+    - code:   0
+
+    - code:   u1
+    - code:   0
+	- code:   u3
+    - code:   0
+
+#Bar 28
+    - code:   0
+    - code:   0
+	- code:   u1
+    - code:   0
+
+    - code:   u3
+    - code:   0
+	- code:   u4
+    - code:   0
+
+	- code:   0
+    - code:   0
+	- code:   u3
+    - code:   0
+
+    - code:   u1
+    - code:   0
+	- code:   u3
+    - code:   0
+
+#Bar 29
+    - code:   u1
+    - code:   0
+	- code:   0
+    - code:   0
+
+    - code:   u3
+    - code:   0
+	- code:   u1
+    - code:   0
+
+	- code:   u4
+    - code:   0
+	- code:   u3
+    - code:   0
+
+    - code:   u1
+    - code:   0
+	- code:   u3
+    - code:   0
+
+#Bar 30
+    - code:   0
+    - code:   0
+	- code:   u1
+    - code:   0
+
+    - code:   u3
+    - code:   0
+	- code:   u4
+    - code:   0
+
+	- code:   0
+    - code:   0
+	- code:   u3
+    - code:   0
+
+    - code:   u1
+    - code:   0
+	- code:   u3
+    - code:   0
+
+#Bar 31
+    - code:   u1
+    - code:   0
+	- code:   0
+    - code:   0
+
+    - code:   u3
+    - code:   0
+	- code:   u1
+    - code:   0
+
+	- code:   u4
+    - code:   0
+	- code:   u3
+    - code:   0
+
+    - code:   u1
+    - code:   0
+	- code:   u3
+    - code:   0
+
+#Bar 32
+    - code:   0
+    - code:   0
+	- code:   u1
+    - code:   0
+
+    - code:   u3
+    - code:   0
+	- code:   u4
+    - code:   0
+
+	- code:   0
+    - code:   0
+	- code:   0
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   0
+    - code:   0
+
+#Bar 25
+    - code:   u1
+    - code:   0
+	- code:   0
+    - code:   0
+
+    - code:   u3
+    - code:   0
+	- code:   u1
+    - code:   0
+
+	- code:   u4
+    - code:   0
+	- code:   u3
+    - code:   0
+
+    - code:   u1
+    - code:   0
+	- code:   u3
+    - code:   0
+
+#Bar 26
+    - code:   0
+    - code:   0
+	- code:   u1
+    - code:   0
+
+    - code:   u3
+    - code:   0
+	- code:   u4
+    - code:   0
+
+	- code:   0
+    - code:   0
+	- code:   u3
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   0
+    - code:   0
+
+#Bar 27
+    - code:   u1
+    - code:   0
+	- code:   0
+    - code:   0
+
+    - code:   u3
+    - code:   0
+	- code:   u1
+    - code:   0
+
+	- code:   u4
+    - code:   0
+	- code:   u3
+    - code:   0
+
+    - code:   u1
+    - code:   0
+	- code:   u3
+    - code:   0
+
+#Bar 28
+    - code:   0
+    - code:   0
+	- code:   u1
+    - code:   0
+
+    - code:   u3
+    - code:   0
+	- code:   u4
+    - code:   0
+
+	- code:   0
+    - code:   0
+	- code:   u3
+    - code:   0
+
+    - code:   u1
+    - code:   0
+	- code:   u3
+    - code:   0
+
+#Bar 29
+    - code:   u1
+    - code:   0
+	- code:   0
+    - code:   0
+
+    - code:   u3
+    - code:   0
+	- code:   u1
+    - code:   0
+
+	- code:   u4
+    - code:   0
+	- code:   u3
+    - code:   0
+
+    - code:   u1
+    - code:   0
+	- code:   u3
+    - code:   0
+
+#Bar 30
+    - code:   0
+    - code:   0
+	- code:   u1
+    - code:   0
+
+    - code:   u3
+    - code:   0
+	- code:   u4
+    - code:   0
+
+	- code:   0
+    - code:   0
+	- code:   u3
+    - code:   0
+
+    - code:   u1
+    - code:   0
+	- code:   u3
+    - code:   0
+
+#Bar 31
+    - code:   u1
+    - code:   0
+	- code:   0
+    - code:   0
+
+    - code:   u3
+    - code:   0
+	- code:   u1
+    - code:   0
+
+	- code:   u4
+    - code:   0
+	- code:   u3
+    - code:   0
+
+    - code:   u1
+    - code:   0
+	- code:   u3
+    - code:   0
+
+#Bar 32
+    - code:   0
+    - code:   0
+	- code:   u1
+    - code:   0
+
+    - code:   u3
+    - code:   0
+	- code:   u4
+    - code:   0
+
+	- code:   0
+    - code:   0
+	- code:   0
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   0
+    - code:   0
+
+#Bar 25
+    - code:   u1
+    - code:   0
+	- code:   0
+    - code:   0
+
+    - code:   u3
+    - code:   0
+	- code:   u1
+    - code:   0
+
+	- code:   u4
+    - code:   0
+	- code:   u3
+    - code:   0
+
+    - code:   u1
+    - code:   0
+	- code:   u3
+    - code:   0
+
+#Bar 26
+    - code:   0
+    - code:   0
+	- code:   u1
+    - code:   0
+
+    - code:   u3
+    - code:   0
+	- code:   u4
+    - code:   0
+
+	- code:   0
+    - code:   0
+	- code:   u3
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   0
+    - code:   0
+
+#Bar 27
+    - code:   u1
+    - code:   0
+	- code:   0
+    - code:   0
+
+    - code:   u3
+    - code:   0
+	- code:   u1
+    - code:   0
+
+	- code:   u4
+    - code:   0
+	- code:   u3
+    - code:   0
+
+    - code:   u1
+    - code:   0
+	- code:   u3
+    - code:   0
+
+#Bar 28
+    - code:   0
+    - code:   0
+	- code:   u1
+    - code:   0
+
+    - code:   u3
+    - code:   0
+	- code:   u4
+    - code:   0
+
+	- code:   0
+    - code:   0
+	- code:   u3
+    - code:   0
+
+    - code:   u1
+    - code:   0
+	- code:   u3
+    - code:   0
+
+#Bar 29
+    - code:   u1
+    - code:   0
+	- code:   0
+    - code:   0
+
+    - code:   u3
+    - code:   0
+	- code:   u1
+    - code:   0
+
+	- code:   u4
+    - code:   0
+	- code:   u3
+    - code:   0
+
+    - code:   u1
+    - code:   0
+	- code:   u3
+    - code:   0
+
+#Bar 30
+    - code:   0
+    - code:   0
+	- code:   u1
+    - code:   0
+
+    - code:   u3
+    - code:   0
+	- code:   u4
+    - code:   0
+
+	- code:   0
+    - code:   0
+	- code:   u3
+    - code:   0
+
+    - code:   u1
+    - code:   0
+	- code:   u3
+    - code:   0
+
+#Bar 31
+    - code:   u1
+    - code:   0
+	- code:   0
+    - code:   0
+
+    - code:   u3
+    - code:   0
+	- code:   u1
+    - code:   0
+
+	- code:   u4
+    - code:   0
+	- code:   u3
+    - code:   0
+
+    - code:   u1
+    - code:   0
+	- code:   u3
+    - code:   0
+
+#Bar 32
+    - code:   0
+    - code:   0
+	- code:   u1
+    - code:   0
+
+    - code:   u3
+    - code:   0
+	- code:   u4
+    - code:   0
+
+	- code:   0
+    - code:   0
+	- code:   0
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   0
+    - code:   0
+
+#Bar 25
+    - code:   u1
+    - code:   0
+	- code:   0
+    - code:   0
+
+    - code:   u3
+    - code:   0
+	- code:   u1
+    - code:   0
+
+	- code:   u4
+    - code:   0
+	- code:   u3
+    - code:   0
+
+    - code:   u1
+    - code:   0
+	- code:   u3
+    - code:   0
+
+#Bar 26
+    - code:   0
+    - code:   0
+	- code:   u1
+    - code:   0
+
+    - code:   u3
+    - code:   0
+	- code:   u4
+    - code:   0
+
+	- code:   0
+    - code:   0
+	- code:   u3
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   0
+    - code:   0
+
+#Bar 27
+    - code:   u1
+    - code:   0
+	- code:   0
+    - code:   0
+
+    - code:   u3
+    - code:   0
+	- code:   u1
+    - code:   0
+
+	- code:   u4
+    - code:   0
+	- code:   u3
+    - code:   0
+
+    - code:   u1
+    - code:   0
+	- code:   u3
+    - code:   0
+
+#Bar 28
+    - code:   0
+    - code:   0
+	- code:   u1
+    - code:   0
+
+    - code:   u3
+    - code:   0
+	- code:   u4
+    - code:   0
+
+	- code:   0
+    - code:   0
+	- code:   u3
+    - code:   0
+
+    - code:   u1
+    - code:   0
+	- code:   u3
+    - code:   0
+
+#Bar 29
+    - code:   u1
+    - code:   0
+	- code:   0
+    - code:   0
+
+    - code:   u3
+    - code:   0
+	- code:   u1
+    - code:   0
+
+	- code:   u4
+    - code:   0
+	- code:   u3
+    - code:   0
+
+    - code:   u1
+    - code:   0
+	- code:   u3
+    - code:   0
+
+#Bar 30
+    - code:   0
+    - code:   0
+	- code:   u1
+    - code:   0
+
+    - code:   u3
+    - code:   0
+	- code:   u4
+    - code:   0
+
+	- code:   0
+    - code:   0
+	- code:   u3
+    - code:   0
+
+    - code:   u1
+    - code:   0
+	- code:   u3
+    - code:   0
+
+#Bar 31
+    - code:   u1
+    - code:   0
+	- code:   0
+    - code:   0
+
+    - code:   u3
+    - code:   0
+	- code:   u1
+    - code:   0
+
+	- code:   u4
+    - code:   0
+	- code:   u3
+    - code:   0
+
+    - code:   u1
+    - code:   0
+	- code:   u3
+    - code:   0
+
+#Bar 32
+    - code:   0
+    - code:   0
+	- code:   u1
+    - code:   0
+
+    - code:   u3
+    - code:   0
+	- code:   u4
+    - code:   0
+
+	- code:   0
+    - code:   0
+	- code:   0
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   0
+    - code:   0
+
+#Bar 17
+    - code:   u1
+    - code:   0
+	- code:   0
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   u2
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   0
+    - code:   0
+
+    - code:   u3
+    - code:   0
+	- code:   0
+    - code:   0
+
+#Bar 18
+    - code:   0
+    - code:   0
+	- code:   0
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   0
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   0
+    - code:   0
+
+    - code:   u2
+    - code:   0
+	- code:   0
+    - code:   0
+
+#Bar 19
+    - code:   u1
+    - code:   0
+	- code:   0
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   u2
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   0
+    - code:   0
+
+    - code:   u3
+    - code:   0
+	- code:   0
+    - code:   0
+
+#Bar 20
+    - code:   0
+    - code:   0
+	- code:   0
+    - code:   0
+
+    - code:   u2
+    - code:   0
+	- code:   u4
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   0
+    - code:   0
+
+    - code:   u3
+    - code:   0
+	- code:   0
+    - code:   0
+
+#Bar 21
+    - code:   u1
+    - code:   0
+	- code:   0
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   u2
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   0
+    - code:   0
+
+    - code:   u3
+    - code:   0
+	- code:   0
+    - code:   0
+
+#Bar 22
+    - code:   0
+    - code:   0
+	- code:   0
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   0
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   0
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   u2
+    - code:   0
+
+#Bar 23
+    - code:   u1
+    - code:   0
+	- code:   0
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   u2
+    - code:   0
+
+	- code:   0
+    - code:   0
+	- code:   0
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   u1
+    - code:   0
+
+#Bar 24
+    - code:   0
+    - code:   0
+	- code:   0
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   u2
+    - code:   0
+
+	- code:   0
+    - code:   0
+	- code:   u2
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   0
+    - code:   0
+
+#Bar 17
+    - code:   u1
+    - code:   0
+	- code:   0
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   u2
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   0
+    - code:   0
+
+    - code:   u3
+    - code:   0
+	- code:   0
+    - code:   0
+
+#Bar 18
+    - code:   0
+    - code:   0
+	- code:   0
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   0
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   0
+    - code:   0
+
+    - code:   u2
+    - code:   0
+	- code:   0
+    - code:   0
+
+#Bar 19
+    - code:   u1
+    - code:   0
+	- code:   0
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   u2
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   0
+    - code:   0
+
+    - code:   u3
+    - code:   0
+	- code:   0
+    - code:   0
+
+#Bar 20
+    - code:   0
+    - code:   0
+	- code:   0
+    - code:   0
+
+    - code:   u2
+    - code:   0
+	- code:   u4
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   0
+    - code:   0
+
+    - code:   u3
+    - code:   0
+	- code:   0
+    - code:   0
+
+#Bar 21
+    - code:   u1
+    - code:   0
+	- code:   0
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   u2
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   0
+    - code:   0
+
+    - code:   u3
+    - code:   0
+	- code:   0
+    - code:   0
+
+#Bar 22
+    - code:   0
+    - code:   0
+	- code:   0
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   0
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   0
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   u2
+    - code:   0
+
+#Bar 23
+    - code:   u1
+    - code:   0
+	- code:   0
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   u2
+    - code:   0
+
+	- code:   0
+    - code:   0
+	- code:   0
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   u1
+    - code:   0
+
+#Bar 24
+    - code:   0
+    - code:   0
+	- code:   0
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   u2
+    - code:   0
+
+	- code:   0
+    - code:   0
+	- code:   u2
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   0
+    - code:   0
+
+#Bar 17
+    - code:   u1
+    - code:   0
+	- code:   0
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   u2
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   0
+    - code:   0
+
+    - code:   u3
+    - code:   0
+	- code:   0
+    - code:   0
+
+#Bar 18
+    - code:   0
+    - code:   0
+	- code:   0
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   0
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   0
+    - code:   0
+
+    - code:   u2
+    - code:   0
+	- code:   0
+    - code:   0
+
+#Bar 19
+    - code:   u1
+    - code:   0
+	- code:   0
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   u2
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   0
+    - code:   0
+
+    - code:   u3
+    - code:   0
+	- code:   0
+    - code:   0
+
+#Bar 20
+    - code:   0
+    - code:   0
+	- code:   0
+    - code:   0
+
+    - code:   u2
+    - code:   0
+	- code:   u4
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   0
+    - code:   0
+
+    - code:   u3
+    - code:   0
+	- code:   0
+    - code:   0
+
+#Bar 21
+    - code:   u1
+    - code:   0
+	- code:   0
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   u2
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   0
+    - code:   0
+
+    - code:   u3
+    - code:   0
+	- code:   0
+    - code:   0
+
+#Bar 22
+    - code:   0
+    - code:   0
+	- code:   0
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   0
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   0
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   u2
+    - code:   0
+
+#Bar 23
+    - code:   u1
+    - code:   0
+	- code:   0
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   u2
+    - code:   0
+
+	- code:   0
+    - code:   0
+	- code:   0
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   u1
+    - code:   0
+
+#Bar 24
+    - code:   0
+    - code:   0
+	- code:   0
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   u2
+    - code:   0
+
+	- code:   0
+    - code:   0
+	- code:   u2
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   0
+    - code:   0
+
+#Bar 81
+	- code:   u1
+    - code:   0
+	- code:   0
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   0
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   0
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   0
+    - code:   0
+
+#Bar 82
+	- code:   0
+    - code:   0
+	- code:   0
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   0
+    - code:   u1
+
+    - code:   u2
+    - code:   u3
+	- code:   0
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   0
+    - code:   u2
+
+#Bar 83
+	- code:   0
+    - code:   u1
+	- code:   0
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   0
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   0
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   0
+    - code:   0
+
+#Bar 84
+	- code:   0
+    - code:   0
+	- code:   0
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   0
+    - code:   u1
+
+    - code:   u2
+    - code:   u3
+	- code:   0
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   0
+    - code:   u2
+
+#Bar 85
+	- code:   0
+    - code:   u1
+	- code:   0
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   0
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   0
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   0
+    - code:   u2
+
+#Bar 86
+	- code:   0
+    - code:   0
+	- code:   0
+    - code:   u1
+
+    - code:   0
+    - code:   0
+	- code:   0
+    - code:   u1
+
+    - code:   u2
+    - code:   u3
+	- code:   0
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   0
+    - code:   u2
+
+	- code:   0
+    - code:   u1
