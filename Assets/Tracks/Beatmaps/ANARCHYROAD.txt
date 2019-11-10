@@ -1,6 +1,6 @@
 bpm: 428
 intro: 0
-speed: 0.1
+speed: 3
 song: anarchyroad
 
 beat_codes:
