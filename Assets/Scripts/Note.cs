@@ -62,9 +62,9 @@ public class Note : MonoBehaviour {
             text.enabled = true;
         }
 
-        var directionToSpawner =  spawner.transform.position - transform.position;
+        /*var directionToSpawner =  spawner.transform.position - transform.position;
         directionToSpawner.Normalize();
-        directionToSpawner *= speed;
+        directionToSpawner *= speed;*/
         text.SetText("" + num);
 
         if (!broken) {
