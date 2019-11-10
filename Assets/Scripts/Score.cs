@@ -2,11 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
+
 
 public class Score : MonoBehaviour {
     TextMeshPro text;
     public TextMeshPro percentageText;
     public TextMeshPro comboText;
+    public TextMeshPro completionText;
     int hits = 0;
     int misses = 0;
     int score;
@@ -45,12 +48,21 @@ public class Score : MonoBehaviour {
 
     public void TrackFinished() {
         var track = parser.file.name;
-        Debug.Log(track + " finished, score: " + score);
+        var scoreText = track + " complete, score: " + score;
+
         var scoreKey = track + ".score";
         var highScore = PlayerPrefs.GetInt(scoreKey, 0);
         if (score > highScore) {
-            Debug.Log("New high score! Last high score was: " + highScore);
+            scoreText += "\nNew high score! Last high score was: " + highScore;
             PlayerPrefs.SetInt(scoreKey, score);
         }
+        completionText.SetText(scoreText);
+        Debug.Log(scoreText);
+
+        Invoke("Reset", 5);
+    }
+
+    void Reset() {
+        SceneManager.LoadScene(0);
     }
 }
