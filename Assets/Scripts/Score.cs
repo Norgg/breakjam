@@ -12,8 +12,11 @@ public class Score : MonoBehaviour {
     int score;
     int mult;
 
+    BeatmapParser parser;
+
     void Start() {
         text = GetComponent<TextMeshPro>();
+        parser = GameObject.FindObjectOfType<BeatmapParser>();
     }
 
     public void Hit(bool good) {
@@ -38,5 +41,16 @@ public class Score : MonoBehaviour {
         comboText.SetText(mult + "x");
 
         text.SetText("" + score);
+    }
+
+    public void TrackFinished() {
+        var track = parser.file.name;
+        Debug.Log(track + " finished, score: " + score);
+        var scoreKey = track + ".score";
+        var highScore = PlayerPrefs.GetInt(scoreKey, 0);
+        if (score > highScore) {
+            Debug.Log("New high score! Last high score was: " + highScore);
+            PlayerPrefs.SetInt(scoreKey, score);
+        }
     }
 }

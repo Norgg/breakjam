@@ -19,6 +19,7 @@ public class Note : MonoBehaviour {
     Renderer render;
 
     public bool broken = false;
+    public bool last = true;
 
     Score score;
 
@@ -45,6 +46,9 @@ public class Note : MonoBehaviour {
         animator.Play("destroy");
         GameObject.Destroy(gameObject, 0.3f);
         score.Miss();
+        if (last) {
+            score.TrackFinished();
+        }
     }
 
     public void Hit(bool good) {
@@ -56,6 +60,9 @@ public class Note : MonoBehaviour {
         animator.Play("implode");
         GameObject.Destroy(gameObject, 0.3f);
         score.Hit(good);
+        if (last) {
+            score.TrackFinished();
+        }
     }
 
     void FixedUpdate() {
