@@ -51,25 +51,24 @@ public class Note : MonoBehaviour {
         // A successful note hit
         if (broken) return;
         broken = true;
+        text.enabled = false;
+        animator.speed = 2.2f;
+        animator.Play("implode");
+        GameObject.Destroy(gameObject, 0.3f);
         score.Hit(good);
-        GameObject.Destroy(gameObject);
     }
 
     void FixedUpdate() {
-        if (transform.position.y < 10) {
+        if (broken) return;
+
+        if (transform.position.y < 10 & !broken) {
             render.enabled = true;
             animator.enabled = true;
             text.enabled = true;
         }
 
-        /*var directionToSpawner =  spawner.transform.position - transform.position;
-        directionToSpawner.Normalize();
-        directionToSpawner *= speed;*/
         text.SetText("" + num);
 
-        if (!broken) {
-            transform.position += Vector3.down * speed * Time.deltaTime;
-        }
-        //transform.position += directionToSpawner;
+        transform.position += Vector3.down * speed * Time.deltaTime;
     }
 }
