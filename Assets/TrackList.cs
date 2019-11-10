@@ -27,16 +27,10 @@ public class TrackList : MonoBehaviour
 
             textMesh.text = textFile.name;
 
-            newButton
-                .GetComponent<RectTransform>()
-                .SetSizeWithCurrentAnchors(RectTransform.Axis.Horizontal, width);
-            newButton
-                .GetComponent<RectTransform>()
-                .SetSizeWithCurrentAnchors(RectTransform.Axis.Vertical, height);
+            newButton.transform.parent = scrollRect.transform;
             //newButton
             //    .GetComponent<RectTransform>()
-            //    .SetPositionAndRotation
-            newButton.transform.parent = scrollRect.transform;
+            //    .SetPositionAndRotation(new Vector3(x, y, 0), Quaternion.identity);
             newButton.transform.localPosition = new Vector3(x, y, 0);
             newButton.onClick.AddListener(() => OnTrackSelected(textFile));
 
