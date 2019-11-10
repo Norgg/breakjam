@@ -9,28 +9,39 @@ public class BeatmapParser : MonoBehaviour {
 
     public TextAsset file;
     Beatmap map;
-    
+
     float timeBetweenBeats;
 
     public Note notePrefab;
 
-    void Start() {
-        // Start is called before the first frame update
+    void Awake() {
+
+        GameObject selected = GameObject.Find("TrackHolder");
+        if (selected != null) {
+            ChosenTrack track = selected.GetComponent<ChosenTrack>();
+            if (track != null) {
+                file = track.chosenTrack;
+            }
+            Destroy(selected);
+        }
+
+
+
         string input = file.text;
-        input = input.Replace("\t","    ");
+        input = input.Replace("\t", "    ");
 
         var deserializer = new DeserializerBuilder().WithNamingConvention(new CamelCaseNamingConvention()).Build();
 
         map = deserializer.Deserialize<Beatmap>(input);
 
         timeBetweenBeats = 1.0f / (map.bpm / 60.0f);
-      
+
 
         AudioClip song = null;
 
         SongNames dict = GetComponent<SongNames>();
 
-        for(int i =0;i<dict.songNames.Length;i++) {
+        for (int i = 0; i < dict.songNames.Length; i++) {
             string s = dict.songNames[i];
             if (s == map.song) {
                 song = dict.songFiles[i];
@@ -55,7 +66,7 @@ public class BeatmapParser : MonoBehaviour {
     void SpawnBeat(Beat beat, int beatNum, float timeBetweenBeats, float introTime) {
         string code = beat.code;
         if (code == "0") { return; }
-        
+
         Note newNote = GameObject.Instantiate(notePrefab);
         newNote.num = (int)char.GetNumericValue(code[1]);
         newNote.speed = map.speed;

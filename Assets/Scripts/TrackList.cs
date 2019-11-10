@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine.UI;
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
+
 
 public class TrackList : MonoBehaviour
 {
@@ -48,9 +50,11 @@ public class TrackList : MonoBehaviour
     {
         var obj = new GameObject();
         var go = GameObject.Instantiate(obj);
-
+        go.name = "TrackHolder";
         go.AddComponent<ChosenTrack>();
         go.GetComponent<ChosenTrack>().chosenTrack = textFile;
         Object.DontDestroyOnLoad(go);
+        SceneManager.LoadScene("level");
+
     }
 }
