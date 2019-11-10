@@ -18,6 +18,4 @@ public class PlayFirstNote : MonoBehaviour
             Destroy(this);
         }
     }
-
-
 }
