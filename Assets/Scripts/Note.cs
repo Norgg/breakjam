@@ -28,6 +28,7 @@ public class Note : MonoBehaviour {
         core = GameObject.Find("Core");
         animator = GetComponentInChildren<Animator>();
         score = FindObjectOfType<Score>();
+        animator.transform.RotateAround(animator.transform.position, Vector3.forward, Random.Range(0, 360));
     }
     
     public void Break() {
