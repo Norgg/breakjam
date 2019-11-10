@@ -1,7 +1,7 @@
 bpm: 428
 intro: 0
 speed: 0.1
-song: anarchyroad
+song: Anarchy Road (107 bpm)
 
 beat_codes:
 						#Bar 1

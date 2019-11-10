@@ -1,7 +1,7 @@
 bpm: 400
 intro: 0
 speed: 0.1
-song: dust
+song: DUST (100 bpm)
 
 beat_codes:
 						#Bar 1

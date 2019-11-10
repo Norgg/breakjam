@@ -39,12 +39,16 @@ public class BeatmapParser : MonoBehaviour {
 
         AudioClip song = null;
 
-        SongNames dict = GetComponent<SongNames>();
+        string path = "Tracks/Musics";
 
-        for (int i = 0; i < dict.songNames.Length; i++) {
-            string s = dict.songNames[i];
-            if (s == map.song) {
-                song = dict.songFiles[i];
+
+        var musicFiles = Resources.LoadAll<AudioClip>(path);
+
+
+        foreach (var s in musicFiles) {
+            if (s.name == map.song) {
+                song = s;
+                break;
             }
         }
 
