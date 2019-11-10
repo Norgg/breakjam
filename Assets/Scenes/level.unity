@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.37311473, g: 0.3807376, b: 0.35873547, a: 1}
+  m_IndirectSpecularColor: {r: 0.3731145, g: 0.38073713, b: 0.35873523, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -208,8 +208,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 232641712}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -4.617, z: 0}
-  m_LocalScale: {x: 17.925, y: 3.447, z: 3}
+  m_LocalPosition: {x: 0, y: -4.416, z: 0}
+  m_LocalScale: {x: 17.925, y: 3.8471754, z: 3}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
@@ -618,7 +618,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9e772295186742d4d90d5a64f39c4bcc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  file: {fileID: 4900000, guid: 9501933271c49ab4ba85cee525ea3e13, type: 3}
+  file: {fileID: 4900000, guid: 8455b501b2c839b40bda25a549f0db58, type: 3}
   notePrefab: {fileID: 1685964782564490143, guid: edea942c0c832964d8a376a1c58efe7f,
     type: 3}
 --- !u!114 &909411924
@@ -636,9 +636,13 @@ MonoBehaviour:
   songNames:
   - anarchyroad
   - dust
+  - goldenrule
+  - gallows
   songFiles:
-  - {fileID: 8300000, guid: 4b4cc0c242ed9f04d97040dd4bb93b89, type: 3}
+  - {fileID: 8300000, guid: 059f98cb11654ca4496b6a458b08cacb, type: 3}
   - {fileID: 8300000, guid: b3334b6f0cd12164ca9f69d92eb32748, type: 3}
+  - {fileID: 8300000, guid: b313350414a4e7d45be1337c254c07a9, type: 3}
+  - {fileID: 8300000, guid: 7d3b1882c2f793d409cca2fc1e73fec5, type: 3}
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
