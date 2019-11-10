@@ -55,6 +55,7 @@ public class Detection : MonoBehaviour {
         bool buttonPress = Input.GetButtonDown(dirButton) || (lastDirection == note.dir && Time.time - lastDirectionTime < lastDirectionForgiveness);
 
         if (badFrets <= 2 && Input.GetButton("Fret" + note.num) && buttonPress) {
+            lastDirectionTime = 0;
             note.Hit();
         }
     }

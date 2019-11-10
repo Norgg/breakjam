@@ -1,6 +1,6 @@
 bpm: 428
-intro: 0
-speed: 0.1
+intro: 0.2
+speed: 3
 song: Anarchy Road (107 bpm)
 
 beat_codes:
@@ -172,3 +172,1665 @@ beat_codes:
 	- code:   u4
     - code:   0
 
+							#Bar 1
+    - code:   l3
+    - code:   r2
+	- code:   l1
+    - code:   0
+
+	- code:   u4
+    - code:   0
+	- code:   0
+    - code:   d1
+
+	- code:   0
+    - code:   0
+	- code:   d1
+    - code:   0
+
+	- code:   0
+    - code:   0
+	- code:   u4
+    - code:   0
+
+						#Bar 2
+    - code:   u3
+    - code:   r2
+	- code:   d1
+    - code:   0
+
+	- code:   u4
+    - code:   0
+	- code:   0
+    - code:   d1
+
+	- code:   0
+    - code:   0
+	- code:   d1
+    - code:   0
+
+	- code:   0
+    - code:   0
+	- code:   u4
+    - code:   0
+
+							#Bar 3
+    - code:   u3
+    - code:   r2
+	- code:   d1
+    - code:   0
+
+	- code:   u4
+    - code:   0
+	- code:   0
+    - code:   d1
+
+	- code:   0
+    - code:   0
+	- code:   d1
+    - code:   0
+
+	- code:   0
+    - code:   0
+	- code:   u4
+    - code:   0
+
+							#Bar 4
+    - code:   u3
+    - code:   r2
+	- code:   d1
+    - code:   0
+
+	- code:   u4
+    - code:   0
+	- code:   0
+    - code:   d1
+
+	- code:   0
+    - code:   0
+	- code:   d1
+    - code:   0
+
+	- code:   0
+    - code:   0
+	- code:   u4
+    - code:   0
+
+						#Bar 5
+    - code:   l3
+    - code:   r2
+	- code:   l1
+    - code:   0
+
+	- code:   u4
+    - code:   0
+	- code:   0
+    - code:   d1
+
+	- code:   0
+    - code:   0
+	- code:   d1
+    - code:   0
+
+	- code:   0
+    - code:   0
+	- code:   u4
+    - code:   0
+
+						#Bar 6
+    - code:   u3
+    - code:   r2
+	- code:   d1
+    - code:   0
+
+	- code:   u4
+    - code:   0
+	- code:   0
+    - code:   d1
+
+	- code:   0
+    - code:   0
+	- code:   d1
+    - code:   0
+
+	- code:   0
+    - code:   0
+	- code:   u4
+    - code:   0
+
+							#Bar 7
+    - code:   u3
+    - code:   r2
+	- code:   d1
+    - code:   0
+
+	- code:   u4
+    - code:   0
+	- code:   0
+    - code:   d1
+
+	- code:   0
+    - code:   0
+	- code:   d1
+    - code:   0
+
+	- code:   0
+    - code:   0
+	- code:   u4
+    - code:   0
+
+							#Bar 16
+    - code:   u3
+    - code:   r2
+	- code:   d1
+    - code:   0
+
+	- code:   u4
+    - code:   0
+	- code:   0
+    - code:   d1
+
+	- code:   0
+    - code:   0
+	- code:   d1
+    - code:   0
+
+	- code:   0
+    - code:   0
+	- code:   u4
+    - code:   0
+
+
+						#Bar 1
+    - code:   l3
+    - code:   r2
+	- code:   l1
+    - code:   0
+
+	- code:   u4
+    - code:   0
+	- code:   0
+    - code:   d1
+
+	- code:   0
+    - code:   0
+	- code:   d1
+    - code:   0
+
+	- code:   0
+    - code:   0
+	- code:   u4
+    - code:   0
+
+						#Bar 2
+    - code:   u3
+    - code:   r2
+	- code:   d1
+    - code:   0
+
+	- code:   u4
+    - code:   0
+	- code:   0
+    - code:   d1
+
+	- code:   0
+    - code:   0
+	- code:   d1
+    - code:   0
+
+	- code:   0
+    - code:   0
+	- code:   u4
+    - code:   0
+
+							#Bar 3
+    - code:   u3
+    - code:   r2
+	- code:   d1
+    - code:   0
+
+	- code:   u4
+    - code:   0
+	- code:   0
+    - code:   d1
+
+	- code:   0
+    - code:   0
+	- code:   d1
+    - code:   0
+
+	- code:   0
+    - code:   0
+	- code:   u4
+    - code:   0
+
+							#Bar 4
+    - code:   u3
+    - code:   r2
+	- code:   d1
+    - code:   0
+
+	- code:   u4
+    - code:   0
+	- code:   0
+    - code:   d1
+
+	- code:   0
+    - code:   0
+	- code:   d1
+    - code:   0
+
+	- code:   0
+    - code:   0
+	- code:   u4
+    - code:   0
+
+						#Bar 5
+    - code:   l3
+    - code:   r2
+	- code:   l1
+    - code:   0
+
+	- code:   u4
+    - code:   0
+	- code:   0
+    - code:   d1
+
+	- code:   0
+    - code:   0
+	- code:   d1
+    - code:   0
+
+	- code:   0
+    - code:   0
+	- code:   u4
+    - code:   0
+
+						#Bar 6
+    - code:   u3
+    - code:   r2
+	- code:   d1
+    - code:   0
+
+	- code:   u4
+    - code:   0
+	- code:   0
+    - code:   d1
+
+	- code:   0
+    - code:   0
+	- code:   d1
+    - code:   0
+
+	- code:   0
+    - code:   0
+	- code:   u4
+    - code:   0
+
+							#Bar 7
+    - code:   u3
+    - code:   r2
+	- code:   d1
+    - code:   0
+
+	- code:   u4
+    - code:   0
+	- code:   0
+    - code:   d1
+
+	- code:   0
+    - code:   0
+	- code:   d1
+    - code:   0
+
+	- code:   0
+    - code:   0
+	- code:   u4
+    - code:   0
+
+							#Bar 24
+    - code:   u3
+    - code:   r2
+	- code:   d1
+    - code:   0
+
+	- code:   u4
+    - code:   0
+	- code:   0
+    - code:   d1
+
+	- code:   0
+    - code:   0
+	- code:   d1
+    - code:   0
+
+	- code:   0
+    - code:   0
+	- code:   u4
+    - code:   0
+
+						#Bar 1
+    - code:   l3
+    - code:   r2
+	- code:   l1
+    - code:   0
+
+	- code:   u4
+    - code:   0
+	- code:   0
+    - code:   d1
+
+	- code:   0
+    - code:   0
+	- code:   d1
+    - code:   0
+
+	- code:   0
+    - code:   0
+	- code:   u4
+    - code:   0
+
+						#Bar 2
+    - code:   u3
+    - code:   r2
+	- code:   d1
+    - code:   0
+
+	- code:   u4
+    - code:   0
+	- code:   0
+    - code:   d1
+
+	- code:   0
+    - code:   0
+	- code:   d1
+    - code:   0
+
+	- code:   0
+    - code:   0
+	- code:   u4
+    - code:   0
+
+							#Bar 3
+    - code:   u3
+    - code:   r2
+	- code:   d1
+    - code:   0
+
+	- code:   u4
+    - code:   0
+	- code:   0
+    - code:   d1
+
+	- code:   0
+    - code:   0
+	- code:   d1
+    - code:   0
+
+	- code:   0
+    - code:   0
+	- code:   u4
+    - code:   0
+
+							#Bar 4
+    - code:   u3
+    - code:   r2
+	- code:   d1
+    - code:   0
+
+	- code:   u4
+    - code:   0
+	- code:   0
+    - code:   d1
+
+	- code:   0
+    - code:   0
+	- code:   d1
+    - code:   0
+
+	- code:   0
+    - code:   0
+	- code:   u4
+    - code:   0
+
+						#Bar 5
+    - code:   l3
+    - code:   r2
+	- code:   l1
+    - code:   0
+
+	- code:   u4
+    - code:   0
+	- code:   0
+    - code:   d1
+
+	- code:   0
+    - code:   0
+	- code:   d1
+    - code:   0
+
+	- code:   0
+    - code:   0
+	- code:   u4
+    - code:   0
+
+						#Bar 6
+    - code:   u3
+    - code:   r2
+	- code:   d1
+    - code:   0
+
+	- code:   u4
+    - code:   0
+	- code:   0
+    - code:   d1
+
+	- code:   0
+    - code:   0
+	- code:   d1
+    - code:   0
+
+	- code:   0
+    - code:   0
+	- code:   u4
+    - code:   0
+
+							#Bar 7
+    - code:   u3
+    - code:   r2
+	- code:   d1
+    - code:   0
+
+	- code:   u4
+    - code:   0
+	- code:   0
+    - code:   d1
+
+	- code:   0
+    - code:   0
+	- code:   d1
+    - code:   0
+
+	- code:   0
+    - code:   0
+	- code:   u4
+    - code:   0
+
+							#Bar 32
+    - code:   u3
+    - code:   r2
+	- code:   d1
+    - code:   0
+
+	- code:   u4
+    - code:   0
+	- code:   0
+    - code:   d1
+
+	- code:   0
+    - code:   0
+	- code:   d1
+    - code:   0
+
+	- code:   0
+    - code:   0
+	- code:   u4
+    - code:   0
+
+							#Bar 1
+    - code:   l3
+    - code:   r2
+	- code:   l1
+    - code:   0
+
+	- code:   u4
+    - code:   0
+	- code:   0
+    - code:   d1
+
+	- code:   0
+    - code:   0
+	- code:   d1
+    - code:   0
+
+	- code:   0
+    - code:   0
+	- code:   u4
+    - code:   0
+
+						#Bar 2
+    - code:   u3
+    - code:   r2
+	- code:   d1
+    - code:   0
+
+	- code:   u4
+    - code:   0
+	- code:   0
+    - code:   d1
+
+	- code:   0
+    - code:   0
+	- code:   d1
+    - code:   0
+
+	- code:   0
+    - code:   0
+	- code:   u4
+    - code:   0
+
+							#Bar 3
+    - code:   u3
+    - code:   r2
+	- code:   d1
+    - code:   0
+
+	- code:   u4
+    - code:   0
+	- code:   0
+    - code:   d1
+
+	- code:   0
+    - code:   0
+	- code:   d1
+    - code:   0
+
+	- code:   0
+    - code:   0
+	- code:   u4
+    - code:   0
+
+							#Bar 4
+    - code:   u3
+    - code:   r2
+	- code:   d1
+    - code:   0
+
+	- code:   u4
+    - code:   0
+	- code:   0
+    - code:   d1
+
+	- code:   0
+    - code:   0
+	- code:   d1
+    - code:   0
+
+	- code:   0
+    - code:   0
+	- code:   u4
+    - code:   0
+
+						#Bar 5
+    - code:   l3
+    - code:   r2
+	- code:   l1
+    - code:   0
+
+	- code:   u4
+    - code:   0
+	- code:   0
+    - code:   d1
+
+	- code:   0
+    - code:   0
+	- code:   d1
+    - code:   0
+
+	- code:   0
+    - code:   0
+	- code:   u4
+    - code:   0
+
+						#Bar 6
+    - code:   u3
+    - code:   r2
+	- code:   d1
+    - code:   0
+
+	- code:   u4
+    - code:   0
+	- code:   0
+    - code:   d1
+
+	- code:   0
+    - code:   0
+	- code:   d1
+    - code:   0
+
+	- code:   0
+    - code:   0
+	- code:   u4
+    - code:   0
+
+							#Bar 7
+    - code:   u3
+    - code:   r2
+	- code:   d1
+    - code:   0
+
+	- code:   u4
+    - code:   0
+	- code:   0
+    - code:   d1
+
+	- code:   0
+    - code:   0
+	- code:   d1
+    - code:   0
+
+	- code:   0
+    - code:   0
+	- code:   u4
+    - code:   0
+
+							#Bar 40
+    - code:   u3
+    - code:   r2
+	- code:   d1
+    - code:   0
+
+	- code:   u4
+    - code:   0
+	- code:   0
+    - code:   d1
+
+	- code:   0
+    - code:   0
+	- code:   d1
+    - code:   0
+
+	- code:   0
+    - code:   0
+	- code:   u4
+    - code:   0
+
+							#Bar 1
+    - code:   l3
+    - code:   r2
+	- code:   l1
+    - code:   0
+
+	- code:   u4
+    - code:   0
+	- code:   0
+    - code:   d1
+
+	- code:   0
+    - code:   0
+	- code:   d1
+    - code:   0
+
+	- code:   0
+    - code:   0
+	- code:   u4
+    - code:   0
+
+						#Bar 2
+    - code:   u3
+    - code:   r2
+	- code:   d1
+    - code:   0
+
+	- code:   u4
+    - code:   0
+	- code:   0
+    - code:   d1
+
+	- code:   0
+    - code:   0
+	- code:   d1
+    - code:   0
+
+	- code:   0
+    - code:   0
+	- code:   u4
+    - code:   0
+
+							#Bar 3
+    - code:   u3
+    - code:   r2
+	- code:   d1
+    - code:   0
+
+	- code:   u4
+    - code:   0
+	- code:   0
+    - code:   d1
+
+	- code:   0
+    - code:   0
+	- code:   d1
+    - code:   0
+
+	- code:   0
+    - code:   0
+	- code:   u4
+    - code:   0
+
+							#Bar 4
+    - code:   u3
+    - code:   r2
+	- code:   d1
+    - code:   0
+
+	- code:   u4
+    - code:   0
+	- code:   0
+    - code:   d1
+
+	- code:   0
+    - code:   0
+	- code:   d1
+    - code:   0
+
+	- code:   0
+    - code:   0
+	- code:   u4
+    - code:   0
+
+						#Bar 5
+    - code:   l3
+    - code:   r2
+	- code:   l1
+    - code:   0
+
+	- code:   u4
+    - code:   0
+	- code:   0
+    - code:   d1
+
+	- code:   0
+    - code:   0
+	- code:   d1
+    - code:   0
+
+	- code:   0
+    - code:   0
+	- code:   u4
+    - code:   0
+
+						#Bar 6
+    - code:   u3
+    - code:   r2
+	- code:   d1
+    - code:   0
+
+	- code:   u4
+    - code:   0
+	- code:   0
+    - code:   d1
+
+	- code:   0
+    - code:   0
+	- code:   d1
+    - code:   0
+
+	- code:   0
+    - code:   0
+	- code:   u4
+    - code:   0
+
+							#Bar 7
+    - code:   u3
+    - code:   r2
+	- code:   d1
+    - code:   0
+
+	- code:   u4
+    - code:   0
+	- code:   0
+    - code:   d1
+
+	- code:   0
+    - code:   0
+	- code:   d1
+    - code:   0
+
+	- code:   0
+    - code:   0
+	- code:   u4
+    - code:   0
+
+							#Bar 48
+    - code:   u3
+    - code:   r2
+	- code:   d1
+    - code:   0
+
+	- code:   u4
+    - code:   0
+	- code:   0
+    - code:   d1
+
+	- code:   0
+    - code:   0
+	- code:   d1
+    - code:   0
+
+	- code:   0
+    - code:   0
+	- code:   u4
+    - code:   0
+
+							#Bar 1
+    - code:   l3
+    - code:   r2
+	- code:   l1
+    - code:   0
+
+	- code:   u4
+    - code:   0
+	- code:   0
+    - code:   d1
+
+	- code:   0
+    - code:   0
+	- code:   d1
+    - code:   0
+
+	- code:   0
+    - code:   0
+	- code:   u4
+    - code:   0
+
+						#Bar 2
+    - code:   u3
+    - code:   r2
+	- code:   d1
+    - code:   0
+
+	- code:   u4
+    - code:   0
+	- code:   0
+    - code:   d1
+
+	- code:   0
+    - code:   0
+	- code:   d1
+    - code:   0
+
+	- code:   0
+    - code:   0
+	- code:   u4
+    - code:   0
+
+							#Bar 3
+    - code:   u3
+    - code:   r2
+	- code:   d1
+    - code:   0
+
+	- code:   u4
+    - code:   0
+	- code:   0
+    - code:   d1
+
+	- code:   0
+    - code:   0
+	- code:   d1
+    - code:   0
+
+	- code:   0
+    - code:   0
+	- code:   u4
+    - code:   0
+
+							#Bar 4
+    - code:   u3
+    - code:   r2
+	- code:   d1
+    - code:   0
+
+	- code:   u4
+    - code:   0
+	- code:   0
+    - code:   d1
+
+	- code:   0
+    - code:   0
+	- code:   d1
+    - code:   0
+
+	- code:   0
+    - code:   0
+	- code:   u4
+    - code:   0
+
+						#Bar 5
+    - code:   l3
+    - code:   r2
+	- code:   l1
+    - code:   0
+
+	- code:   u4
+    - code:   0
+	- code:   0
+    - code:   d1
+
+	- code:   0
+    - code:   0
+	- code:   d1
+    - code:   0
+
+	- code:   0
+    - code:   0
+	- code:   u4
+    - code:   0
+
+						#Bar 6
+    - code:   u3
+    - code:   r2
+	- code:   d1
+    - code:   0
+
+	- code:   u4
+    - code:   0
+	- code:   0
+    - code:   d1
+
+	- code:   0
+    - code:   0
+	- code:   d1
+    - code:   0
+
+	- code:   0
+    - code:   0
+	- code:   u4
+    - code:   0
+
+							#Bar 7
+    - code:   u3
+    - code:   r2
+	- code:   d1
+    - code:   0
+
+	- code:   u4
+    - code:   0
+	- code:   0
+    - code:   d1
+
+	- code:   0
+    - code:   0
+	- code:   d1
+    - code:   0
+
+	- code:   0
+    - code:   0
+	- code:   u4
+    - code:   0
+
+							#Bar 56
+    - code:   u3
+    - code:   r2
+	- code:   d1
+    - code:   0
+
+	- code:   u4
+    - code:   0
+	- code:   0
+    - code:   d1
+
+	- code:   0
+    - code:   0
+	- code:   d1
+    - code:   0
+
+	- code:   0
+    - code:   0
+	- code:   u4
+    - code:   0
+
+							#Bar 1
+    - code:   l3
+    - code:   r2
+	- code:   l1
+    - code:   0
+
+	- code:   u4
+    - code:   0
+	- code:   0
+    - code:   d1
+
+	- code:   0
+    - code:   0
+	- code:   d1
+    - code:   0
+
+	- code:   0
+    - code:   0
+	- code:   u4
+    - code:   0
+
+						#Bar 2
+    - code:   u3
+    - code:   r2
+	- code:   d1
+    - code:   0
+
+	- code:   u4
+    - code:   0
+	- code:   0
+    - code:   d1
+
+	- code:   0
+    - code:   0
+	- code:   d1
+    - code:   0
+
+	- code:   0
+    - code:   0
+	- code:   u4
+    - code:   0
+
+							#Bar 3
+    - code:   u3
+    - code:   r2
+	- code:   d1
+    - code:   0
+
+	- code:   u4
+    - code:   0
+	- code:   0
+    - code:   d1
+
+	- code:   0
+    - code:   0
+	- code:   d1
+    - code:   0
+
+	- code:   0
+    - code:   0
+	- code:   u4
+    - code:   0
+
+							#Bar 4
+    - code:   u3
+    - code:   r2
+	- code:   d1
+    - code:   0
+
+	- code:   u4
+    - code:   0
+	- code:   0
+    - code:   d1
+
+	- code:   0
+    - code:   0
+	- code:   d1
+    - code:   0
+
+	- code:   0
+    - code:   0
+	- code:   u4
+    - code:   0
+
+						#Bar 5
+    - code:   l3
+    - code:   r2
+	- code:   l1
+    - code:   0
+
+	- code:   u4
+    - code:   0
+	- code:   0
+    - code:   d1
+
+	- code:   0
+    - code:   0
+	- code:   d1
+    - code:   0
+
+	- code:   0
+    - code:   0
+	- code:   u4
+    - code:   0
+
+						#Bar 6
+    - code:   u3
+    - code:   r2
+	- code:   d1
+    - code:   0
+
+	- code:   u4
+    - code:   0
+	- code:   0
+    - code:   d1
+
+	- code:   0
+    - code:   0
+	- code:   d1
+    - code:   0
+
+	- code:   0
+    - code:   0
+	- code:   u4
+    - code:   0
+
+							#Bar 7
+    - code:   u3
+    - code:   r2
+	- code:   d1
+    - code:   0
+
+	- code:   u4
+    - code:   0
+	- code:   0
+    - code:   d1
+
+	- code:   0
+    - code:   0
+	- code:   d1
+    - code:   0
+
+	- code:   0
+    - code:   0
+	- code:   u4
+    - code:   0
+
+							#Bar 64
+    - code:   u3
+    - code:   r2
+	- code:   d1
+    - code:   0
+
+	- code:   u4
+    - code:   0
+	- code:   0
+    - code:   d1
+
+	- code:   0
+    - code:   0
+	- code:   d1
+    - code:   0
+
+	- code:   0
+    - code:   0
+	- code:   u4
+    - code:   0
+
+							#Bar 1
+    - code:   l3
+    - code:   r2
+	- code:   l1
+    - code:   0
+
+	- code:   u4
+    - code:   0
+	- code:   0
+    - code:   d1
+
+	- code:   0
+    - code:   0
+	- code:   d1
+    - code:   0
+
+	- code:   0
+    - code:   0
+	- code:   u4
+    - code:   0
+
+						#Bar 2
+    - code:   u3
+    - code:   r2
+	- code:   d1
+    - code:   0
+
+	- code:   u4
+    - code:   0
+	- code:   0
+    - code:   d1
+
+	- code:   0
+    - code:   0
+	- code:   d1
+    - code:   0
+
+	- code:   0
+    - code:   0
+	- code:   u4
+    - code:   0
+
+							#Bar 3
+    - code:   u3
+    - code:   r2
+	- code:   d1
+    - code:   0
+
+	- code:   u4
+    - code:   0
+	- code:   0
+    - code:   d1
+
+	- code:   0
+    - code:   0
+	- code:   d1
+    - code:   0
+
+	- code:   0
+    - code:   0
+	- code:   u4
+    - code:   0
+
+							#Bar 4
+    - code:   u3
+    - code:   r2
+	- code:   d1
+    - code:   0
+
+	- code:   u4
+    - code:   0
+	- code:   0
+    - code:   d1
+
+	- code:   0
+    - code:   0
+	- code:   d1
+    - code:   0
+
+	- code:   0
+    - code:   0
+	- code:   u4
+    - code:   0
+
+						#Bar 5
+    - code:   l3
+    - code:   r2
+	- code:   l1
+    - code:   0
+
+	- code:   u4
+    - code:   0
+	- code:   0
+    - code:   d1
+
+	- code:   0
+    - code:   0
+	- code:   d1
+    - code:   0
+
+	- code:   0
+    - code:   0
+	- code:   u4
+    - code:   0
+
+						#Bar 6
+    - code:   u3
+    - code:   r2
+	- code:   d1
+    - code:   0
+
+	- code:   u4
+    - code:   0
+	- code:   0
+    - code:   d1
+
+	- code:   0
+    - code:   0
+	- code:   d1
+    - code:   0
+
+	- code:   0
+    - code:   0
+	- code:   u4
+    - code:   0
+
+							#Bar 7
+    - code:   u3
+    - code:   r2
+	- code:   d1
+    - code:   0
+
+	- code:   u4
+    - code:   0
+	- code:   0
+    - code:   d1
+
+	- code:   0
+    - code:   0
+	- code:   d1
+    - code:   0
+
+	- code:   0
+    - code:   0
+	- code:   u4
+    - code:   0
+
+							#Bar 72
+    - code:   u3
+    - code:   r2
+	- code:   d1
+    - code:   0
+
+	- code:   u4
+    - code:   0
+	- code:   0
+    - code:   d1
+
+	- code:   0
+    - code:   0
+	- code:   d1
+    - code:   0
+
+	- code:   0
+    - code:   0
+	- code:   u4
+    - code:   0
+
+							#Bar 1
+    - code:   l3
+    - code:   r2
+	- code:   l1
+    - code:   0
+
+	- code:   u4
+    - code:   0
+	- code:   0
+    - code:   d1
+
+	- code:   0
+    - code:   0
+	- code:   d1
+    - code:   0
+
+	- code:   0
+    - code:   0
+	- code:   u4
+    - code:   0
+
+						#Bar 2
+    - code:   u3
+    - code:   r2
+	- code:   d1
+    - code:   0
+
+	- code:   u4
+    - code:   0
+	- code:   0
+    - code:   d1
+
+	- code:   0
+    - code:   0
+	- code:   d1
+    - code:   0
+
+	- code:   0
+    - code:   0
+	- code:   u4
+    - code:   0
+
+							#Bar 3
+    - code:   u3
+    - code:   r2
+	- code:   d1
+    - code:   0
+
+	- code:   u4
+    - code:   0
+	- code:   0
+    - code:   d1
+
+	- code:   0
+    - code:   0
+	- code:   d1
+    - code:   0
+
+	- code:   0
+    - code:   0
+	- code:   u4
+    - code:   0
+
+							#Bar 4
+    - code:   u3
+    - code:   r2
+	- code:   d1
+    - code:   0
+
+	- code:   u4
+    - code:   0
+	- code:   0
+    - code:   d1
+
+	- code:   0
+    - code:   0
+	- code:   d1
+    - code:   0
+
+	- code:   0
+    - code:   0
+	- code:   u4
+    - code:   0
+
+						#Bar 5
+    - code:   l3
+    - code:   r2
+	- code:   l1
+    - code:   0
+
+	- code:   u4
+    - code:   0
+	- code:   0
+    - code:   d1
+
+	- code:   0
+    - code:   0
+	- code:   d1
+    - code:   0
+
+	- code:   0
+    - code:   0
+	- code:   u4
+    - code:   0
+
+						#Bar 6
+    - code:   u3
+    - code:   r2
+	- code:   d1
+    - code:   0
+
+	- code:   u4
+    - code:   0
+	- code:   0
+    - code:   d1
+
+	- code:   0
+    - code:   0
+	- code:   d1
+    - code:   0
+
+	- code:   0
+    - code:   0
+	- code:   u4
+    - code:   0
+
+							#Bar 7
+    - code:   u3
+    - code:   r2
+	- code:   d1
+    - code:   0
+
+	- code:   u4
+    - code:   0
+	- code:   0
+    - code:   d1
+
+	- code:   0
+    - code:   0
+	- code:   d1
+    - code:   0
+
+	- code:   0
+    - code:   0
+	- code:   u4
+    - code:   0
+
+							#Bar 80
+    - code:   u3
+    - code:   r2
+	- code:   d1
+    - code:   0
+
+	- code:   u4
+    - code:   0
+	- code:   0
+    - code:   d1
+
+	- code:   0
+    - code:   0
+	- code:   d1
+    - code:   0
+
+	- code:   0
+    - code:   0
+	- code:   u4
+    - code:   0
+
+						#Bar 81
+    - code:   l3
+    - code:   r2
+	- code:   l1
+    - code:   0
+
+	- code:   u4
+    - code:   0
+	- code:   0
+    - code:   d1
+
+	- code:   0
+    - code:   0
+	- code:   d1
+    - code:   0
+
+	- code:   0
+    - code:   0
+	- code:   u4
+    - code:   0
+
+						#Bar 82
+    - code:   u3
+    - code:   r2
+	- code:   d1
+    - code:   0
+
+	- code:   u4
+    - code:   0
+	- code:   0
+    - code:   d1
+
+	- code:   0
+    - code:   0
+	- code:   d1
+    - code:   0
+
+	- code:   0
+    - code:   0
+	- code:   u4
+    - code:   0
+
+							#Bar 83
+    - code:   u3
+    - code:   r2
+	- code:   d1
+    - code:   0
+
+	- code:   u4
+    - code:   0
+	- code:   0
+    - code:   d1
+
+	- code:   0
+    - code:   0
+	- code:   d1
+    - code:   0
+
+	- code:   0
+    - code:   0
+	- code:   u4
+    - code:   0
+
+							#Bar 84
+    - code:   u3
+    - code:   r2
+	- code:   d1
+    - code:   0
+
+	- code:   u4
+    - code:   0
+	- code:   0
+    - code:   d1
+
+	- code:   0
+    - code:   0
+	- code:   d1
+    - code:   0
+
+	- code:   0
+    - code:   0
+	- code:   u4
+    - code:   0
+
+						#Bar 85
+    - code:   l3
+    - code:   r2
+	- code:   l1
+    - code:   0
+
+	- code:   u4
+    - code:   0
+	- code:   0
+    - code:   d1
+
+	- code:   0
+    - code:   0
+	- code:   d1
+    - code:   0
+
+	- code:   0
+    - code:   0
+	- code:   u4
+    - code:   0
+
+						#Bar 86
+    - code:   u3
+    - code:   r2
+	- code:   d1
+    - code:   0
+
+	- code:   u4
+    - code:   0
+	- code:   0
+    - code:   d1
+
+	- code:   0
+    - code:   0
+	- code:   d1
+    - code:   0
+
+	- code:   0
+    - code:   0
+	- code:   u4
+    - code:   0
+
+							#Bar 87
+    - code:   u3
+    - code:   r2
+	- code:   d1
+    - code:   0
+
+	- code:   u4
+    - code:   0
+	- code:   0
+    - code:   d1
+
+	- code:   0
+    - code:   0
+	- code:   d1
+    - code:   0
+
+	- code:   0
+    - code:   0
+	- code:   u4
+    - code:   0
+
+							#Bar 88
+    - code:   u3

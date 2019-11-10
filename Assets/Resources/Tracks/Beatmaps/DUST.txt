@@ -1,6 +1,6 @@
 bpm: 400
-intro: 0
-speed: 0.1
+intro: 0.1
+speed: 3
 song: DUST (100 bpm)
 
 beat_codes:
@@ -447,6 +447,468 @@ beat_codes:
     - code:   0
 
 							#Bar 22
+    - code:   0
+    - code:   0
+	- code:   u1
+    - code:   0
+
+    - code:   u2
+    - code:   0
+	- code:   u3
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   u4
+    - code:   0
+
+    - code:   u1
+    - code:   0
+	- code:   u2
+    - code:   0
+
+								#Bar 23
+    - code:   0
+    - code:   0
+	- code:   u1
+    - code:   0
+
+    - code:   u2
+    - code:   0
+	- code:   u3
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   u1
+    - code:   0
+
+    - code:   u2
+    - code:   0
+	- code:   u3
+    - code:   0
+
+							#Bar 24
+    - code:   0
+    - code:   0
+	- code:   u1
+    - code:   0
+
+    - code:   u2
+    - code:   0
+	- code:   u3
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   u4
+    - code:   0
+
+    - code:   u1
+    - code:   0
+	- code:   u2
+    - code:   0
+
+							#Bar 5
+    - code:   0
+    - code:   0
+	- code:   u1
+    - code:   0
+
+    - code:   u2
+    - code:   0
+	- code:   u3
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   u1
+    - code:   0
+
+    - code:   u2
+    - code:   0
+	- code:   u3
+    - code:   0
+
+							#Bar 6
+    - code:   0
+    - code:   0
+	- code:   u1
+    - code:   0
+
+    - code:   u2
+    - code:   0
+	- code:   u3
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   u4
+    - code:   0
+
+    - code:   u1
+    - code:   0
+	- code:   u2
+    - code:   0
+
+							#Bar 7
+    - code:   0
+    - code:   0
+	- code:   u1
+    - code:   0
+
+    - code:   u2
+    - code:   0
+	- code:   u3
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   u1
+    - code:   0
+
+    - code:   u2
+    - code:   0
+	- code:   u3
+    - code:   0
+
+							#Bar 8
+    - code:   0
+    - code:   0
+	- code:   u1
+    - code:   0
+
+    - code:   u2
+    - code:   0
+	- code:   u3
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   u4
+    - code:   0
+
+    - code:   u1
+    - code:   0
+	- code:   u2
+    - code:   0
+
+							#Bar 9
+    - code:   0
+    - code:   0
+	- code:   u1
+    - code:   0
+
+    - code:   u2
+    - code:   0
+	- code:   u3
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   u1
+    - code:   0
+
+    - code:   u2
+    - code:   0
+	- code:   u3
+    - code:   0
+
+							#Bar 10
+    - code:   0
+    - code:   0
+	- code:   u1
+    - code:   0
+
+    - code:   u2
+    - code:   0
+	- code:   u3
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   u4
+    - code:   0
+
+    - code:   u1
+    - code:   0
+	- code:   u2
+    - code:   0
+
+							#Bar 11
+    - code:   0
+    - code:   0
+	- code:   u1
+    - code:   0
+
+    - code:   u2
+    - code:   0
+	- code:   u3
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   u1
+    - code:   0
+
+    - code:   u2
+    - code:   0
+	- code:   u3
+    - code:   0
+
+							#Bar 12
+    - code:   0
+    - code:   0
+	- code:   u1
+    - code:   0
+
+    - code:   u2
+    - code:   0
+	- code:   u3
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   u4
+    - code:   0
+
+    - code:   u1
+    - code:   0
+	- code:   u2
+    - code:   0
+
+							#Bar 13
+    - code:   0
+    - code:   0
+	- code:   u1
+    - code:   0
+
+    - code:   u2
+    - code:   0
+	- code:   u3
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   u1
+    - code:   0
+
+    - code:   u2
+    - code:   0
+	- code:   u3
+    - code:   0
+
+							#Bar 14
+    - code:   0
+    - code:   0
+	- code:   u1
+    - code:   0
+
+    - code:   u2
+    - code:   0
+	- code:   u3
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   u4
+    - code:   0
+
+    - code:   u1
+    - code:   0
+	- code:   u2
+    - code:   0
+
+							#Bar 15
+    - code:   0
+    - code:   0
+	- code:   u1
+    - code:   0
+
+    - code:   u2
+    - code:   0
+	- code:   u3
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   u1
+    - code:   0
+
+    - code:   u2
+    - code:   0
+	- code:   u3
+    - code:   0
+
+							#Bar 16
+    - code:   0
+    - code:   0
+	- code:   u1
+    - code:   0
+
+    - code:   u2
+    - code:   0
+	- code:   u3
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   u4
+    - code:   0
+
+    - code:   u1
+    - code:   0
+	- code:   u2
+    - code:   0
+
+							#Bar 17
+    - code:   0
+    - code:   0
+	- code:   u1
+    - code:   0
+
+    - code:   u2
+    - code:   0
+	- code:   u3
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   u1
+    - code:   0
+
+    - code:   u2
+    - code:   0
+	- code:   u3
+    - code:   0
+
+							#Bar 18
+    - code:   0
+    - code:   0
+	- code:   u1
+    - code:   0
+
+    - code:   u2
+    - code:   0
+	- code:   u3
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   u4
+    - code:   0
+
+    - code:   u1
+    - code:   0
+	- code:   u2
+    - code:   0
+
+							#Bar 19
+    - code:   0
+    - code:   0
+	- code:   u1
+    - code:   0
+
+    - code:   u2
+    - code:   0
+	- code:   u3
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   u1
+    - code:   0
+
+    - code:   u2
+    - code:   0
+	- code:   u3
+    - code:   0
+
+							#Bar 20
+    - code:   0
+    - code:   0
+	- code:   u1
+    - code:   0
+
+    - code:   u2
+    - code:   0
+	- code:   u3
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   u4
+    - code:   0
+
+    - code:   u1
+    - code:   0
+	- code:   u2
+    - code:   0
+
+							#Bar 21
+    - code:   0
+    - code:   0
+	- code:   u1
+    - code:   0
+
+    - code:   u2
+    - code:   0
+	- code:   u3
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   u1
+    - code:   0
+
+    - code:   u2
+    - code:   0
+	- code:   u3
+    - code:   0
+
+							#Bar 22
+    - code:   0
+    - code:   0
+	- code:   u1
+    - code:   0
+
+    - code:   u2
+    - code:   0
+	- code:   u3
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   u4
+    - code:   0
+
+    - code:   u1
+    - code:   0
+	- code:   u2
+    - code:   0
+
+								#Bar 23
+    - code:   0
+    - code:   0
+	- code:   u1
+    - code:   0
+
+    - code:   u2
+    - code:   0
+	- code:   u3
+    - code:   0
+
+    - code:   0
+    - code:   0
+	- code:   u1
+    - code:   0
+
+    - code:   u2
+    - code:   0
+	- code:   u3
+    - code:   0
+
+							#Bar 24
     - code:   0
     - code:   0
 	- code:   u1
