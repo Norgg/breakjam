@@ -1,7 +1,7 @@
 bpm: 816
 intro: 0
 speed: 4
-song: gallows
+song: Gallows (102 bpm)
 beat_codes:
 
 #Bar 1

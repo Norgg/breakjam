@@ -1,0 +1,175 @@
+bpm: 348	
+intro: 0
+speed: 3
+song: The Tempest (87 bpm)
+beat_codes:
+
+#Intro 1
+
+    - code:   u1
+    - code:   0
+	- code:   u1
+    - code:   u3
+
+    - code:   0
+    - code:   u3
+	- code:   u2
+    - code:   0
+
+    - code:   u2
+    - code:   u4
+	- code:   0
+    - code:   u4
+
+    - code:   u3
+    - code:   0
+	- code:   u2
+    - code:   0
+
+#Bar 2
+
+    - code:   u1
+    - code:   0
+	- code:   u1
+    - code:   u4
+
+    - code:   0
+    - code:   u4
+	- code:   u3
+    - code:   0
+
+    - code:   u3
+    - code:   u2
+	- code:   0
+    - code:   u2
+
+    - code:   u1
+    - code:   0
+	- code:   0
+    - code:   0
+
+    - code:   u1
+    - code:   0
+	- code:   u1
+    - code:   u3
+
+    - code:   0
+    - code:   u3
+	- code:   u2
+    - code:   0
+
+    - code:   u2
+    - code:   u4
+	- code:   0
+    - code:   u4
+
+    - code:   u3
+    - code:   0
+	- code:   u2
+    - code:   0
+
+#Bar 2
+
+    - code:   u1
+    - code:   0
+	- code:   u1
+    - code:   u4
+
+    - code:   0
+    - code:   u4
+	- code:   u3
+    - code:   0
+
+    - code:   u3
+    - code:   u2
+	- code:   0
+    - code:   u2
+
+    - code:   u1
+    - code:   0
+	- code:   0
+    - code:   0
+
+    - code:   u1
+    - code:   0
+	- code:   u1
+    - code:   u3
+
+    - code:   0
+    - code:   u3
+	- code:   u2
+    - code:   0
+
+    - code:   u2
+    - code:   u4
+	- code:   0
+    - code:   u4
+
+    - code:   u3
+    - code:   0
+	- code:   u2
+    - code:   0
+
+#Bar 2
+
+    - code:   u1
+    - code:   0
+	- code:   u1
+    - code:   u4
+
+    - code:   0
+    - code:   u4
+	- code:   u3
+    - code:   0
+
+    - code:   u3
+    - code:   u2
+	- code:   0
+    - code:   u2
+
+    - code:   u1
+    - code:   0
+	- code:   0
+    - code:   0
+
+    - code:   u1
+    - code:   0
+	- code:   u1
+    - code:   u3
+
+    - code:   0
+    - code:   u3
+	- code:   u2
+    - code:   0
+
+    - code:   u2
+    - code:   u4
+	- code:   0
+    - code:   u4
+
+    - code:   u3
+    - code:   0
+	- code:   u2
+    - code:   0
+
+#Bar 2
+
+    - code:   u1
+    - code:   0
+	- code:   u1
+    - code:   u4
+
+    - code:   0
+    - code:   u4
+	- code:   u3
+    - code:   0
+
+    - code:   u3
+    - code:   u2
+	- code:   0
+    - code:   u2
+
+    - code:   u1
+    - code:   0
+	- code:   0
+    - code:   0
