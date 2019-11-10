@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.UI;
+using UnityEngine.EventSystems;
 using UnityEngine;
 using TMPro;
 using UnityEngine.SceneManagement;
@@ -21,10 +22,12 @@ public class TrackList : MonoBehaviour
         int width = 1000;
         var path = "Tracks/Beatmaps";
         var textFiles = Resources.LoadAll<TextAsset>(path);
+        Button newButton = null;
 
         foreach (var textFile in textFiles)
         {
-            var newButton = Instantiate<Button>(buttonTemplate);
+            newButton = Instantiate<Button>(buttonTemplate);
+
             var textMesh = newButton.GetComponentInChildren<TextMeshProUGUI>();
 
             textMesh.text = textFile.name;
@@ -38,6 +41,7 @@ public class TrackList : MonoBehaviour
 
             y += height + 10;
         }
+        GameObject.FindObjectOfType<EventSystem>().firstSelectedGameObject = newButton.gameObject;
     }
 
     private void OnTrackSelected(TextAsset textFile)
