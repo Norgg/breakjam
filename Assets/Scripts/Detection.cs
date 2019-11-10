@@ -5,12 +5,29 @@ using UnityEngine;
 public class Detection : MonoBehaviour {
     List<Note> notesThisFrame;
     int numFrets = 4;
+    NoteSpawner.Direction lastDirection;
+    float lastDirectionTime;
+    float lastDirectionForgiveness = 0.05f;
 
     void Start() {
         notesThisFrame = new List<Note>();
     }
 
     void Update() {
+        if (Input.GetButtonDown("Up")) {
+            lastDirection = NoteSpawner.Direction.Up;
+            lastDirectionTime = Time.time;
+        } else if (Input.GetButtonDown("Down")) {
+            lastDirection = NoteSpawner.Direction.Down;
+            lastDirectionTime = Time.time;             
+        } else if (Input.GetButtonDown("Left")) {
+            lastDirection = NoteSpawner.Direction.Left;
+            lastDirectionTime = Time.time;
+        } else if (Input.GetButtonDown("Right")) {
+            lastDirection = NoteSpawner.Direction.Right;
+            lastDirectionTime = Time.time;
+        }
+
         if (notesThisFrame.Count > 0) {
             // Only check the most recent note for each fret
             for (var fret = 1; fret <= numFrets; fret++) {
@@ -26,7 +43,6 @@ public class Detection : MonoBehaviour {
     }
 
     void checkNote(Note note) {
-        var dirButton = note.dir.ToString();
         var badFrets = 0;
         for (var i = 1; i <= numFrets; i++) {
             if (i != note.num && Input.GetButton("Fret" + i)) {
@@ -35,7 +51,10 @@ public class Detection : MonoBehaviour {
             }
         }
 
-        if (badFrets <= 2 && Input.GetButton("Fret" + note.num) && Input.GetButtonDown(dirButton)) {
+        var dirButton = note.dir.ToString();
+        bool buttonPress = Input.GetButtonDown(dirButton) || (lastDirection == note.dir && Time.time - lastDirectionTime < lastDirectionForgiveness);
+
+        if (badFrets <= 2 && Input.GetButton("Fret" + note.num) && buttonPress) {
             note.Hit();
         }
     }
