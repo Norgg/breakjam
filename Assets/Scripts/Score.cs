@@ -53,9 +53,12 @@ public class Score : MonoBehaviour {
         var scoreKey = track + ".score";
         var highScore = PlayerPrefs.GetInt(scoreKey, 0);
         if (score > highScore) {
-            scoreText += "\nNew high score! Last high score was: " + highScore;
+            scoreText += "\nNew high score \\m/!";
             PlayerPrefs.SetInt(scoreKey, score);
         }
+
+        scoreText += "\nAccuracy: " + Mathf.FloorToInt(100.0f * (float) hits / (float) (hits + misses)) + "%";
+        
         completionText.SetText(scoreText);
         Debug.Log(scoreText);
 
