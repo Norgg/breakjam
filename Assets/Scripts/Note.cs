@@ -47,11 +47,11 @@ public class Note : MonoBehaviour {
         score.Miss();
     }
 
-    public void Hit() {
+    public void Hit(bool good) {
         // A successful note hit
         if (broken) return;
         broken = true;
-        score.Hit();
+        score.Hit(good);
         GameObject.Destroy(gameObject);
     }
 

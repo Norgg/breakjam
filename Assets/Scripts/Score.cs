@@ -6,6 +6,7 @@ using TMPro;
 public class Score : MonoBehaviour {
     TextMeshPro text;
     public TextMeshPro percentageText;
+    public TextMeshPro comboText;
     int hits = 0;
     int misses = 0;
     int score;
@@ -15,9 +16,11 @@ public class Score : MonoBehaviour {
         text = GetComponent<TextMeshPro>();
     }
 
-    public void Hit() {
+    public void Hit(bool good) {
         hits++;
-        score += 5 * mult;
+        var addedScore = 5 * mult;
+        if (good) addedScore *= 2;
+        score += addedScore;
         mult++;
         UpdateText();
     }
@@ -31,6 +34,8 @@ public class Score : MonoBehaviour {
     void UpdateText() {
         var percent = 100.0f * (float) hits / (float) (hits + misses);
         percentageText.SetText(Mathf.FloorToInt(percent) + "%");
+
+        comboText.SetText(mult + "x");
 
         text.SetText("" + score);
     }

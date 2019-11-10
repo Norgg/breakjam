@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Detection : MonoBehaviour {
+    public GameObject timingLine;
     List<Note> notesThisFrame;
     int numFrets = 4;
     NoteSpawner.Direction lastDirection;
@@ -56,7 +57,8 @@ public class Detection : MonoBehaviour {
 
         if (badFrets <= 2 && Input.GetButton("Fret" + note.num) && buttonPress) {
             lastDirectionTime = 0;
-            note.Hit();
+            var good = note.GetComponent<Collider>().bounds.Intersects(timingLine.GetComponent<Collider>().bounds);
+            note.Hit(good);
         }
     }
 
