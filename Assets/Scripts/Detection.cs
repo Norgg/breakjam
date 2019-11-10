@@ -27,15 +27,15 @@ public class Detection : MonoBehaviour {
 
     void checkNote(Note note) {
         var dirButton = note.dir.ToString();
-        var badFrets = false;
+        var badFrets = 0;
         for (var i = 1; i <= numFrets; i++) {
             if (i != note.num && Input.GetButton("Fret" + i)) {
-                badFrets = true;
+                badFrets += 1;
                 break;
             }
         }
 
-        if (!badFrets && Input.GetButton("Fret" + note.num) && Input.GetButtonDown(dirButton)) {
+        if (badFrets <= 2 && Input.GetButton("Fret" + note.num) && Input.GetButtonDown(dirButton)) {
             note.Hit();
         }
     }
