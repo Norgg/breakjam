@@ -16,6 +16,7 @@ public class Note : MonoBehaviour {
     GameObject detection;
 
     Animator animator;
+    Renderer render;
 
     public bool broken = false;
 
@@ -29,6 +30,10 @@ public class Note : MonoBehaviour {
         animator = GetComponentInChildren<Animator>();
         score = FindObjectOfType<Score>();
         animator.transform.RotateAround(animator.transform.position, Vector3.forward, Random.Range(0, 360));
+        render = GetComponentInChildren<Renderer>();
+        render.enabled = false;
+        animator.enabled = false;
+        text.enabled = false;
     }
     
     public void Break() {
@@ -51,9 +56,15 @@ public class Note : MonoBehaviour {
     }
 
     void FixedUpdate() {
-        var directionToSpawner =  spawner.transform.position - transform.position;
+        if (transform.position.y < 10) {
+            render.enabled = true;
+            animator.enabled = true;
+            text.enabled = true;
+        }
+
+        /*var directionToSpawner =  spawner.transform.position - transform.position;
         directionToSpawner.Normalize();
-        directionToSpawner *= speed;
+        directionToSpawner *= speed;*/
         text.SetText("" + num);
 
         if (!broken) {
